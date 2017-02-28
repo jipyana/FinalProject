@@ -1,0 +1,403 @@
+GeForce GTX 260
+GeForce GTX 275
+GeForce GTX 285
+GeForce GTX 295
+GeForce GTX 460
+GeForce GTX 460 SE
+GeForce GTX 460 X2
+GeForce GTX 465
+GeForce GTX 470
+GeForce GTX 480
+GeForce GTX 550 Ti
+GeForce GTX 560
+GeForce GTX 560 SE
+GeForce GTX 560 Ti
+GeForce GTX 560 Ti 448
+GeForce GTX 560 Ti X2
+GeForce GTX 570
+GeForce GTX 580
+GeForce GTX 580 X2
+GeForce GTX 590
+GeForce GTX 650
+GeForce GTX 650 Ti
+GeForce GTX 650 Ti Boost
+GeForce GTX 660
+GeForce GTX 660 Ti
+GeForce GTX 670
+GeForce GTX 680
+GeForce GTX 690
+GeForce GTX 750
+GeForce GTX 750 Ti
+GeForce GTX 760
+GeForce GTX 760 X2
+GeForce GTX 770
+GeForce GTX 780
+GeForce GTX 780 Ti
+GeForce GTX 950
+GeForce GTX 950 75W
+GeForce GTX 960
+GeForce GTX 970
+GeForce GTX 980
+GeForce GTX 980 Ti
+GeForce GTX 1050
+
+
+GeForce GTX 1050 Ti
+
+	Zotac ZT-P10510A-10L
+		Wattage Necessary(TDP):  75Watts
+		Memory: 4GB
+		Core Clock: 1.30GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16
+		Price:  $138.99
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+
+
+
+GeForce GTX 1060 3GB
+
+	Gigabyte GV-N1060WF2OC-3GD
+		Wattage Necessary(TDP): 120 Watts 
+		Memory:  6GB
+		Core Clock:  1.56GHz
+		Mulit-GPU:  No
+		Compatability:  PCI-Express x16
+		Price:  $194.98
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	EVGA 03G-P4-6162
+		Wattage Necessary(TDP): 120 Watts
+		Memory:  6GB
+		Core Clock:  1.61GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16 
+		Price:  $199.99
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		OS Requirements:
+	
+	Asus DUAL-GTX1060-O3G	
+		Wattage Necessary(TDP): 120 Watts
+		Memory:  3GB
+		Core Clock:  1.59GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16 
+		Price:  $216.51
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		OS Requirements:
+	
+	MSI GTX 1060 GAMING X 3G
+		Wattage Necessary(TDP):  120 Watts
+		Memory:  3GB 
+		Core Clock:  1.59GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16 
+		Price:  $208.98
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		OS Requirements:
+
+
+GeForce GTX 1060 6GB
+
+	Asus DUAL-GTX1060-O6G
+		Wattage Necessary(TDP):  120 Watts
+		Memory: 6GB
+		Core Clock:  1.59GHz
+		Mulit-GPU: SLI-Ready
+		Compatability: PCI-Express x16
+		Price:  $264.98
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	EVGA 06G-P4-6163-KR
+		Wattage Necessary(TDP): 120 Watts
+		Memory: 6GB
+		Core Clock: 1.61GHz
+		Mulit-GPU: No 
+		Compatability: PCI-Express x16 
+		Price:  $254.98
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		
+	Gigabyte GV-N1060WF2OC-6GD
+		Wattage Necessary(TDP): 120 Watts
+		Memory: 6GB
+		Core Clock:  1.58GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16 
+		Price:  
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	Asus ROG STRIX-GTX1060-O6G-GAMING
+		Wattage Necessary(TDP): 120 Watts
+		Memory: 6GB
+		Core Clock:  1.62GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16 
+		Price:  $299.99
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	MSI GEFORCE GTX 1060 GAMING X 6G
+		Wattage Necessary(TDP):  120 Watts
+		Memory: 6GB
+		Core Clock:  1.51GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16 
+		Price:  $269.89
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+
+	Zotac ZT-P10600A-10L
+		Wattage Necessary(TDP):  120 Watts
+		Memory:  6GB
+		Core Clock:  1.51GHz
+		Mulit-GPU: No
+		Compatability: PCI-Express x16
+		Price:  $238.88
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	Gigabyte GV-N1060G1 GAMING-6GD	
+		Wattage Necessary(TDP): 120 Watts
+		Memory:  6GB
+		Core Clock:  1.59GHz
+		Mulit-GPU: No
+		Compatability: PCI-Express x16 
+		Price:  $281.99
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		OS Requirements:
+	
+	PNY VCGGTX10606PB
+		Wattage Necessary(TDP):  120 Watts
+		Memory:  6GB
+		Core Clock:  1.51GHz
+		Mulit-GPU: No
+		Compatability:  PCI-Express x16
+		Price:  $246.89
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		OS Requirements:
+
+
+GeForce GTX 1070
+	EVGA 08G-P4-6173-KR
+		Wattage Necessary(TDP): 180 Watts
+		Memory: 8GB
+		Core Clock:  1.59GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $389.99
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	Asus ROG STRIX-GTX1070-O8G-GAMING
+		Wattage Necessary(TDP): 150 Watts
+		Memory: 8GB
+		Core Clock: 1.63GHz
+		Mulit-GPU: SLI-Ready
+		Compatability: PCI-Express x16
+		Price:  $404.99
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	MSI GTX 1070 GAMING X 8G	
+		Wattage Necessary(TDP): 150 Watts
+		Memory: 8GB
+		Core Clock:  1.51GHz
+		Mulit-GPU:  SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $409,99
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	Gigabyte GV-N1070G1-GAMING-8GD
+		Wattage Necessary(TDP): 150 Watts
+		Memory:  8GB 
+		Core Clock: 1.59GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $404.89
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	EVGA 08G-P4-6276-KR
+		Wattage Necessary(TDP):  215 Watts
+		Memory: 8GB
+		Core Clock: 1.61GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $404.98
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	Asus DUAL-GTX1070-O8G
+		Wattage Necessary(TDP): 150 Watts
+		Memory: 8GB
+		Core Clock: 1.58GHz
+		Mulit-GPU: SLI-Ready
+		Compatability: PCI-Express x16
+		Price:  $389.99
+		HDMI Ports:  Yes
+		Display Port:  Yes
+		OS Requirements:
+		
+	Gigabyte GV-N1070WF2OC-8GD
+		Wattage Necessary(TDP):  150 wATTS
+		Memory:  8GB 
+		Core Clock: 1.56GHz
+		Mulit-GPU: SLI-Ready
+		Compatability: PCI-Express x16
+		Price:  $379.00
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+
+
+GeForce GTX 1080
+
+	MSI GeForce GTX 1080 8GB GAMING X 8G Video Card
+		Wattage Necessary(TDP): 180 Watts
+		Memory:  8GB
+		Core Clock:  1.61GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $664.98
+		HDMI Ports: Yes	
+		Display Port:  Yes
+		OS Requirements:
+
+	Asus ROG STRIX-GTX1080-A8G-GAMING
+		Wattage Necessary(TDP):  180 Watts
+		Memory: 8GB
+		Core Clock:  1.67GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $639.99
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+
+	Asus STRIX-GTX1080-O8G-GAMING
+		Wattage Necessary(TDP):  180 Watts
+		Memory: 8GB
+		Core Clock:  1.94GHz
+		Mulit-GPU:  SLI
+		Compatability: PCI-Express x16
+		Price:  $678.99
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+
+	EVGA 08G-P4-6183
+		Wattage Necessary(TDP):  180Watts
+		Memory: 8GB
+		Core Clock: 1.85GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $584.99
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+
+
+	Zotac ZT-P10800C-10P
+		Wattage Necessary(TDP): 230 Watts
+		Memory: 8GB
+		Core Clock: 1.68GHz
+		Mulit-GPU: SLI Ready
+		Compatability: PCI Express x16
+		Price:  $580.00
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+
+
+GeForce GTX Titan X
+
+	EVGA 12G-P4-2992-KR	
+		Wattage Necessary:
+		Memory: 12GB
+		Core Clock: 1.13GHz
+		
+	NVIDIA 900-1G600-2500-00
+		Wattage Necessary:
+		Memory: 12GB
+		Core Clock: 1.0GHz
+		Price: $1910.04
+		
+		
+GeForce GTX Titan Z
+
+	EVGA 12G-P4-3992-KR
+		Wattage Necessary: 700 Watt or greater power supply with aminimum of 42 Amp on the +12 volt rail.
+		Memory: 12GB
+		Core Clock: 732MHz
+		Mulit-GPU: SLI Ready
+		Price: $999.99
+		Compatability: PCI Express, PCI Express 2.0 or PCI Express 3.0
+		HDMI Port: Yes 
+		OS Requirements: Windows 10 32/64bit, Windows 8 32/64bit, Windows 7 32/64bit, Windows Vista 32/64bit
+		Display Port: Yes
+		
+	MSI NTITAN Z 12GD5
+		Wattage Necessary: 
+		Memory: 12GB
+		Core Clocke: 705 MHz
+		Mulit-GPU: SLI Ready
+		Price: Unavailable
+		Compatability: PCI Express 3.0
+		HDMI Port: Yes
+		Display Port: Yes
+		OS Requirements:
+		
+	EVGA 12G-P4-3990-KR
+		Wattage Necessary:
+		Memory: 12GB
+		Core Clock: 705MHz
+		Mulit-GPU: SLI Ready
+		Price: $949.99
+		Compatability: 
+		HDMI Ports:
+		Display Port: Yes
+		OS Requirements:
+		
+	Asus GTXTITAN-12GD5	
+		Wattage Necessary:
+		Memory: 12GB
+		Core Clock: 705MHz
+		Mulit-GPU: SLI Ready
+		Compatability: PCI Express 3.0
+		Price: Unavailable
+		HDMI Ports:
+		Display Port: Yes
+		OS Requirements:
+		
+		Wattage Necessary(TDP): 
+		Memory: 
+		Core Clock: 
+		Mulit-GPU: 
+		Compatability: 
+		Price:  
+		HDMI Ports: 
+		Display Port:  
+		OS Requirements:

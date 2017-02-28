@@ -41,7 +41,7 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
         cPU = new javax.swing.JButton();
         memory = new javax.swing.JButton();
         oS = new javax.swing.JButton();
-        jButton6 = new javax.swing.JButton();
+        heatSink = new javax.swing.JButton();
         powerSupply = new javax.swing.JButton();
         videoCard = new javax.swing.JButton();
         Case = new javax.swing.JButton();
@@ -81,9 +81,19 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
 
         hardDrive.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         hardDrive.setText("Hard Drive");
+        hardDrive.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hardDriveActionPerformed(evt);
+            }
+        });
 
         motheBoard.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         motheBoard.setText("MotherBoard");
+        motheBoard.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                motheBoardActionPerformed(evt);
+            }
+        });
 
         cPU.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         cPU.setText("CPU");
@@ -95,21 +105,51 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
 
         memory.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         memory.setText("Memory");
+        memory.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                memoryActionPerformed(evt);
+            }
+        });
 
         oS.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         oS.setText("Operating System");
+        oS.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                oSActionPerformed(evt);
+            }
+        });
 
-        jButton6.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
-        jButton6.setText("Heat Sink");
+        heatSink.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
+        heatSink.setText("Heat Sink");
+        heatSink.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                heatSinkActionPerformed(evt);
+            }
+        });
 
         powerSupply.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         powerSupply.setText("Power Supply");
+        powerSupply.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                powerSupplyActionPerformed(evt);
+            }
+        });
 
         videoCard.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         videoCard.setText("Video Card");
+        videoCard.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                videoCardActionPerformed(evt);
+            }
+        });
 
         Case.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         Case.setText("Case");
+        Case.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CaseActionPerformed(evt);
+            }
+        });
 
         jInternalFrame2.setVisible(true);
 
@@ -145,7 +185,7 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(memory, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton6)
+                                .addComponent(heatSink)
                                 .addGap(3, 3, 3)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(layout.createSequentialGroup()
@@ -173,7 +213,7 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(powerSupply, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(memory, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(heatSink, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(oS, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -186,14 +226,44 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void cPUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cPUActionPerformed
-       
-        
-       
+       System.out.println("CPU button was pressed.");
     }//GEN-LAST:event_cPUActionPerformed
 
     private void partSelectorInternalFrameActivated(javax.swing.event.InternalFrameEvent evt) {//GEN-FIRST:event_partSelectorInternalFrameActivated
-        System.out.println("Activated");
+        System.out.println("Activated.");
     }//GEN-LAST:event_partSelectorInternalFrameActivated
+
+    private void hardDriveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hardDriveActionPerformed
+        System.out.println("Hard Drive button was pressed.");
+    }//GEN-LAST:event_hardDriveActionPerformed
+
+    private void motheBoardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_motheBoardActionPerformed
+        System.out.println("Motherboard button was pressed.");
+    }//GEN-LAST:event_motheBoardActionPerformed
+
+    private void videoCardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_videoCardActionPerformed
+        System.out.println("Video Card button was pressed.");
+    }//GEN-LAST:event_videoCardActionPerformed
+
+    private void memoryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_memoryActionPerformed
+        System.out.println("Memory button was pressed.");
+    }//GEN-LAST:event_memoryActionPerformed
+
+    private void oSActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oSActionPerformed
+       System.out.println("Operating system button was pressed.");
+    }//GEN-LAST:event_oSActionPerformed
+
+    private void powerSupplyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_powerSupplyActionPerformed
+        System.out.println("Power Supply button was pressed.");
+    }//GEN-LAST:event_powerSupplyActionPerformed
+
+    private void CaseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CaseActionPerformed
+        System.out.println("Case button was pressed");
+    }//GEN-LAST:event_CaseActionPerformed
+
+    private void heatSinkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heatSinkActionPerformed
+        System.out.println("Heat sink button was pressed.");
+    }//GEN-LAST:event_heatSinkActionPerformed
 
     /**
      * @param args the command line arguments
@@ -268,7 +338,7 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
     private javax.swing.JButton Case;
     private javax.swing.JButton cPU;
     private javax.swing.JButton hardDrive;
-    private javax.swing.JButton jButton6;
+    private javax.swing.JButton heatSink;
     private javax.swing.JInternalFrame jInternalFrame2;
     private javax.swing.JButton memory;
     private javax.swing.JButton motheBoard;

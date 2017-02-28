@@ -109,6 +109,7 @@ public class MainFrame extends javax.swing.JFrame {
         if(isValid){
            new MainFrame().setVisible(false);
        }
+        System.out.println("Build Your PC Button was pressed.");
         
        
     }//GEN-LAST:event_buildYourPCActionPerformed
