@@ -7,6 +7,7 @@ package pc.builder;
 
 import java.awt.event.ActionEvent;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileReader;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -36,6 +37,7 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
     private void initComponents() {
 
         partSelector = new javax.swing.JInternalFrame();
+        jCheckBox1 = new javax.swing.JCheckBox();
         hardDrive = new javax.swing.JButton();
         motheBoard = new javax.swing.JButton();
         cPU = new javax.swing.JButton();
@@ -68,15 +70,28 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
             }
         });
 
+        jCheckBox1.setText("jCheckBox1");
+        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jCheckBox1ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout partSelectorLayout = new javax.swing.GroupLayout(partSelector.getContentPane());
         partSelector.getContentPane().setLayout(partSelectorLayout);
         partSelectorLayout.setHorizontalGroup(
             partSelectorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 853, Short.MAX_VALUE)
+            .addGroup(partSelectorLayout.createSequentialGroup()
+                .addGap(40, 40, 40)
+                .addComponent(jCheckBox1)
+                .addContainerGap(731, Short.MAX_VALUE))
         );
         partSelectorLayout.setVerticalGroup(
             partSelectorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 926, Short.MAX_VALUE)
+            .addGroup(partSelectorLayout.createSequentialGroup()
+                .addGap(30, 30, 30)
+                .addComponent(jCheckBox1)
+                .addContainerGap(873, Short.MAX_VALUE))
         );
 
         hardDrive.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
@@ -227,10 +242,14 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
 
     private void cPUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cPUActionPerformed
        System.out.println("CPU button was pressed.");
+       
+
     }//GEN-LAST:event_cPUActionPerformed
 
     private void partSelectorInternalFrameActivated(javax.swing.event.InternalFrameEvent evt) {//GEN-FIRST:event_partSelectorInternalFrameActivated
         System.out.println("Activated.");
+        
+        
     }//GEN-LAST:event_partSelectorInternalFrameActivated
 
     private void hardDriveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hardDriveActionPerformed
@@ -243,6 +262,11 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
 
     private void videoCardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_videoCardActionPerformed
         System.out.println("Video Card button was pressed.");
+        
+//        FileReader videoCards =  new FileReader("NvidiaVideoCards.txt");
+//        BufferedReader input = new BufferedReader(videoCards);
+
+       
     }//GEN-LAST:event_videoCardActionPerformed
 
     private void memoryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_memoryActionPerformed
@@ -264,6 +288,10 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
     private void heatSinkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heatSinkActionPerformed
         System.out.println("Heat sink button was pressed.");
     }//GEN-LAST:event_heatSinkActionPerformed
+
+    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
+//        jCheckBox1
+    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -299,23 +327,18 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
                 new BuildYourPCWindow().setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
             }
         });
+        
     }
     
-    public void actionPerformed(JButton cPU){
-         boolean isValid = true;    
-        JInternalFrame partSelector = new JInternalFrame();
-        
-        partSelector.setResizable(isValid);
-        partSelector.setClosable(!isValid);
-        partSelector.setVisible(isValid);
-        
-        cPU = new JButton ("Clicked: "+clicked+" Times!");
-        partSelector.add(cPU);
-    }
+//    public void actionPerformed(JButton cPU){
+// 
+//   }
     
     public void actionPerformed(ActionEvent cPU){
         clicked++;
     }
+    
+    
     
     
 //    public static void textFileReader(){
@@ -339,6 +362,7 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
     private javax.swing.JButton cPU;
     private javax.swing.JButton hardDrive;
     private javax.swing.JButton heatSink;
+    private javax.swing.JCheckBox jCheckBox1;
     private javax.swing.JInternalFrame jInternalFrame2;
     private javax.swing.JButton memory;
     private javax.swing.JButton motheBoard;

@@ -6,6 +6,7 @@
 package pc.builder;
 
 import javax.swing.JFrame;
+import javax.swing.JInternalFrame;
 
 
 /**
@@ -21,6 +22,7 @@ public class PCBuilder {
         MainFrame start = new MainFrame();
         start.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         start.setVisible(true);
+       
 
 //        BuildYourPCWindow pcBuilder = new BuildYourPCWindow();
 //        pcBuilder.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
