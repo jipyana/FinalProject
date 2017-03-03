@@ -1,0 +1,11 @@
+PNY GeForce GTX 460 1GB
+
+		Wattage Necessary(TDP):  150 Watts
+		Chipset:  GeForce GTX 460
+		Memory:  1GB
+		Core Clock: 675Mhz
+		Mulit-GPU:  SLI Ready
+		Compatability:  PCI-Express x16
+		Price:  $162.50
+		HDMI Ports:  Yes
+		Display Port:  Yes

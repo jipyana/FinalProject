@@ -1,7 +1,4 @@
-GeForce GTX 260
-GeForce GTX 275
-GeForce GTX 285
-GeForce GTX 295
+
 GeForce GTX 460
 GeForce GTX 460 SE
 GeForce GTX 460 X2
@@ -65,41 +62,13 @@ GeForce GTX 1080
 
 GeForce GTX Titan X
 
-	EVGA 12G-P4-2992-KR	
-		Wattage Necessary:
-		Memory: 12GB
-		Core Clock: 1.13GHz
-		
-	NVIDIA 900-1G600-2500-00
-		Wattage Necessary:
-		Memory: 12GB
-		Core Clock: 1.0GHz
-		Price: $1910.04
-		
+		Done
 		
 GeForce GTX Titan Z
 
-	EVGA 12G-P4-3992-KR
-		Wattage Necessary: 700 Watt or greater power supply with aminimum of 42 Amp on the +12 volt rail.
-		Memory: 12GB
-		Core Clock: 732MHz
-		Mulit-GPU: SLI Ready
-		Price: $999.99
-		Compatability: PCI Express, PCI Express 2.0 or PCI Express 3.0
-		HDMI Port: Yes 
-		OS Requirements: Windows 10 32/64bit, Windows 8 32/64bit, Windows 7 32/64bit, Windows Vista 32/64bit
-		Display Port: Yes
+	
 		
-	MSI NTITAN Z 12GD5
-		Wattage Necessary: 
-		Memory: 12GB
-		Core Clocke: 705 MHz
-		Mulit-GPU: SLI Ready
-		Price: Unavailable
-		Compatability: PCI Express 3.0
-		HDMI Port: Yes
-		Display Port: Yes
-		OS Requirements:
+
 		
 	EVGA 12G-P4-3990-KR
 		Wattage Necessary:
@@ -124,6 +93,7 @@ GeForce GTX Titan Z
 		OS Requirements:
 		
 		Wattage Necessary(TDP): 
+		Chipset: 
 		Memory: 
 		Core Clock: 
 		Mulit-GPU: 
@@ -131,4 +101,4 @@ GeForce GTX Titan Z
 		Price:  
 		HDMI Ports: 
 		Display Port:  
-		OS Requirements:
+
