@@ -1,0 +1,11 @@
+Zotac ZT-P10510A-10L
+
+		Wattage Necessary(TDP):  75Watts
+		Chipset: GeForce GTX 1050 Ti
+		Memory: 4GB
+		Core Clock: 1.30GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16
+		Price:  $138.99
+		HDMI Ports: Yes
+		Display Port:  Yes

@@ -43,17 +43,7 @@ GeForce GTX 1050
 
 
 GeForce GTX 1050 Ti
-
-	Zotac ZT-P10510A-10L
-		Wattage Necessary(TDP):  75Watts
-		Memory: 4GB
-		Core Clock: 1.30GHz
-		Mulit-GPU:  No
-		Compatability: PCI-Express x16
-		Price:  $138.99
-		HDMI Ports: Yes
-		Display Port:  Yes
-		OS Requirements:
+Done
 
 
 
@@ -61,6 +51,7 @@ GeForce GTX 1060 3GB
 
 	Gigabyte GV-N1060WF2OC-3GD
 		Wattage Necessary(TDP): 120 Watts 
+		Chipset: GeForce GTX 1060 3GB
 		Memory:  6GB
 		Core Clock:  1.56GHz
 		Mulit-GPU:  No

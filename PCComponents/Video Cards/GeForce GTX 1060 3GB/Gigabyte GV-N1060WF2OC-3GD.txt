@@ -1,0 +1,11 @@
+Gigabyte GV-N1060WF2OC-3GD
+
+		Wattage Necessary(TDP): 120 Watts 
+		Chipset: GeForce GTX 1060 3GB
+		Memory:  6GB
+		Core Clock:  1.56GHz
+		Mulit-GPU:  No
+		Compatability:  PCI-Express x16
+		Price:  $194.98
+		HDMI Ports:  Yes
+		Display Port:  Yes
