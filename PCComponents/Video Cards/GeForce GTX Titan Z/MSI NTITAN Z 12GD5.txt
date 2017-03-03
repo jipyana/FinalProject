@@ -1,0 +1,11 @@
+	MSI NTITAN Z 12GD5
+	
+		Wattage Necessary:  375 Watts
+		Chipset: GeForce GTX Titan Z
+		Memory: 12GB
+		Core Clocke: 705 MHz
+		Mulit-GPU: SLI Ready
+		Price: Unavailable
+		Compatability: PCI Express 3.0
+		HDMI Port: Yes
+		Display Port: Yes

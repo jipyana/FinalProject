@@ -1,0 +1,11 @@
+	NVIDIA 900-1G600-2500-00
+	
+		Wattage Necessary: 250 Watts
+		Chipset: GeForce GTX Titan X
+		Memory: 12GB
+		Core Clock: 1.0GHz
+		Mulit-GPU:  SLI Ready
+		Compatability: 
+		Price: $1410.32
+		HDMI Ports:  Yes
+		Display Port:  Yes

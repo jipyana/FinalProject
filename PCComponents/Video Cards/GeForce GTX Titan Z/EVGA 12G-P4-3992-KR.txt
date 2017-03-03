@@ -1,0 +1,11 @@
+EVGA 12G-P4-3992-KR
+
+		Wattage Necessary: 700+
+		Chipset: GeForce GTX Titan Z
+		Memory: 12GB
+		Core Clock: 732MHz
+		Mulit-GPU: SLI Ready
+		Price: $999.99
+		Compatability: PCI Express, PCI Express 2.0 or PCI Express 3.0
+		HDMI Port: Yes 
+		Display Port: Yes

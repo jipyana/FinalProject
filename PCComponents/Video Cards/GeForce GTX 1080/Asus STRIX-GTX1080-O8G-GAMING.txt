@@ -1,0 +1,11 @@
+	Asus STRIX-GTX1080-O8G-GAMING
+	
+		Wattage Necessary(TDP):  180 Watts
+		Chipset: GeForce GTX 1080
+		Memory: 8GB
+		Core Clock:  1.94GHz
+		Mulit-GPU:  SLI
+		Compatability: PCI-Express x16
+		Price:  $678.99
+		HDMI Ports: Yes
+		Display Port:  Yes

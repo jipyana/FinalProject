@@ -1,0 +1,11 @@
+	EVGA 08G-P4-6183
+	
+		Wattage Necessary(TDP):  180Watts
+		Chipset: GeForce GTX 1080
+		Memory: 8GB
+		Core Clock: 1.85GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $584.99
+		HDMI Ports: Yes
+		Display Port:  Yes

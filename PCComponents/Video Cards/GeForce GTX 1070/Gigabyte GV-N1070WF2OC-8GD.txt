@@ -1,0 +1,11 @@
+	Gigabyte GV-N1070WF2OC-8GD
+	
+		Wattage Necessary(TDP):  150 Watts
+		Chipset: GeForce GTX 1070
+		Memory:  8GB 
+		Core Clock: 1.56GHz
+		Mulit-GPU: SLI-Ready
+		Compatability: PCI-Express x16
+		Price:  $379.00
+		HDMI Ports: Yes
+		Display Port:  Yes
