@@ -1,0 +1,11 @@
+	MSI GTX 1070 GAMING X 8G	
+	
+		Wattage Necessary(TDP): 150 Watts
+		Chipset: GeForce GTX 1070
+		Memory: 8GB
+		Core Clock:  1.51GHz
+		Mulit-GPU:  SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $409,99
+		HDMI Ports: Yes
+		Display Port:  Yes

@@ -1,0 +1,11 @@
+	Gigabyte GV-N1060G1 GAMING-6GD	
+	
+		Wattage Necessary(TDP): 120 Watts
+		Chipset:  GeForce GTX 1060 6GB
+		Memory:  6GB
+		Core Clock:  1.59GHz
+		Mulit-GPU: No
+		Compatability: PCI-Express x16 
+		Price:  $281.99
+		HDMI Ports:  Yes
+		Display Port:  Yes

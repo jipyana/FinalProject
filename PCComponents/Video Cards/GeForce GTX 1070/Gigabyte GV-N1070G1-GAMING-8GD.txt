@@ -1,0 +1,11 @@
+	Gigabyte GV-N1070G1-GAMING-8GD
+	
+		Wattage Necessary(TDP): 150 Watts
+		Chipset: GeForce GTX 1070
+		Memory:  8GB 
+		Core Clock: 1.59GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $404.89
+		HDMI Ports: Yes
+		Display Port:  Yes

@@ -1,0 +1,11 @@
+EVGA 08G-P4-6173-KR
+
+		Wattage Necessary(TDP): 180 Watts
+		Chipset: GeForce GTX 1070
+		Memory: 8GB
+		Core Clock:  1.59GHz
+		Mulit-GPU: SLI-Ready
+		Compatability:  PCI-Express x16
+		Price:  $389.99
+		HDMI Ports: Yes
+		Display Port:  Yes

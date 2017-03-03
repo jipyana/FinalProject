@@ -1,0 +1,13 @@
+Asus DUAL-GTX1060-O6G
+
+		Wattage Necessary(TDP):  120 Watts
+		Chipset:  GeForce GTX 1060 6GB
+		Memory: 6GB
+		Core Clock:  1.59GHz
+		Mulit-GPU: SLI-Ready
+		Compatability: PCI-Express x16
+		Price:  $264.98
+		HDMI Ports: Yes
+		Display Port:  Yes
+		OS Requirements:
+		

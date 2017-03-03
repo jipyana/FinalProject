@@ -1,0 +1,11 @@
+	Asus ROG STRIX-GTX1060-O6G-GAMING
+	
+		Wattage Necessary(TDP): 120 Watts
+		Chipset: GeForce GTX 1060 6GB
+		Memory: 6GB
+		Core Clock:  1.62GHz
+		Mulit-GPU:  No
+		Compatability: PCI-Express x16 
+		Price:  $299.99
+		HDMI Ports: Yes
+		Display Port:  Yes
