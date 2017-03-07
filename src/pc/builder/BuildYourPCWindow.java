@@ -246,7 +246,16 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
 
     private void partSelectorInternalFrameActivated(javax.swing.event.InternalFrameEvent evt) {//GEN-FIRST:event_partSelectorInternalFrameActivated
         System.out.println("Activated.");
-        
+        for (SpecificationsForVideoCards videoCard : PCBuilder.videoCards) {
+            javax.swing.JCheckBox checkbox = new javax.swing.JCheckBox(); 
+            checkbox.setText(videoCard.getGpuName());
+            checkbox.addActionListener(new java.awt.event.ActionListener() {
+                public void actionPerformed(java.awt.event.ActionEvent evt) {
+                    
+                }
+            });
+            evt.getInternalFrame().add(checkbox);
+        }
         
     }//GEN-LAST:event_partSelectorInternalFrameActivated
 

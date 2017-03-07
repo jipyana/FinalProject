@@ -4,7 +4,7 @@ PNY GeForce GTX 460 1GB
 		Chipset:  GeForce GTX 460
 		Memory:  1GB
 		Core Clock: 675Mhz
-		Mulit-GPU:  SLI Ready
+		Multi-GPU:  SLI Ready
 		Compatability:  PCI-Express x16
 		Price:  $162.50
 		HDMI Ports:  Yes
