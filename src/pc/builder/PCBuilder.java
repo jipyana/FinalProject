@@ -12,7 +12,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFrame;
@@ -26,6 +25,16 @@ import javax.swing.JInternalFrame;
 public class PCBuilder {
     
     public static final ArrayList<SpecificationsForVideoCards> videoCards = new ArrayList();
+    private static File geforceGTX460 = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX 460");
+    private static File geforceGTX1050TI = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX 1050Ti");
+    private static File geforceGTX1060 = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX 1060");
+    private static File geforceGTX1060_3GB = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX 1060 3GB");
+    private static File geforceGTX1060_6GB = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX 1060 6GB");
+    private static File geforceGTX1070 = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX 1070");
+    private static File geforceGTX1080 = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX 1080");
+    private static File geforceGTXTitanZ = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX Titan Z");
+    private static File geforceGTXTitanX =  new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX Titan X");
+    
  
     /**
      * @param args the command line arguments
@@ -36,20 +45,20 @@ public class PCBuilder {
             start.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             start.setVisible(true);
 
-            File geforceGTX460 = new File("C:\\Users\\Jamila\\Documents\\NetBeansProjects\\PC Builder\\FinalProject\\src\\PCComponents\\Video Cards\\GeForce GTX 460");
             
-
-            
-            
-            fileReader(geforceGTX460);
-            
-//        BuildYourPCWindow pcBuilder = new BuildYourPCWindow();
-//        pcBuilder.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        pcBuilder.setVisible(true);
-      
+            fileReaderGTX460(geforceGTX460);
+            fileReaderGTX1050TI(geforceGTX1050TI);
+            fileReaderGTX1060(geforceGTX1060);
+            fileReaderGTX1060_3GB(geforceGTX1060_3GB);
+            fileReaderGTX1060_6GB(geforceGTX1060_6GB);
+            fileReaderGTX1070(geforceGTX1070);
+            fileReaderGTX1080(geforceGTX1080);
+            fileReaderGTXTitanZ(geforceGTXTitanZ);
+            fileReaderGTXTitanX(geforceGTXTitanX);
+       
     }
     
-    public static void fileReader(File geforceGTX460){
+    public static void fileReaderGTX460(File geforceGTX460){
         
          for(File item : geforceGTX460.listFiles()){
             //System.out.println(item.getName());
@@ -90,10 +99,350 @@ public class PCBuilder {
                  Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
              }
         }
+         
+    }    
+    public static void fileReaderGTX1050TI(File geforceGTX1050TI){
+    	
+    	 for(File item : geforceGTX1050TI.listFiles()){
+             //System.out.println(item.getName());
+             try (BufferedReader br = new BufferedReader(new FileReader(item))) {
+                 String line = null;
+
+                 SpecificationsForVideoCards videoCard = new SpecificationsForVideoCards();
+                 
+                 int lineNumber = 0;
+                 while ((line = br.readLine()) != null) {
+                     lineNumber++;
+                     if (lineNumber == 1) {
+                         videoCard.setGpuName(line);
+                     } else if (lineNumber == 3) {
+                         videoCard.setWattageNecessary(line.trim().replaceAll("Wattage Necessary(TDP):", "").trim());
+                     } else if (lineNumber == 4) {
+                         videoCard.setChipset(line.trim().replaceAll("Chipset:", "").trim());
+                     } else if(lineNumber == 5){
+                         videoCard.setMemory(line.trim().replaceAll("Memory:", "").trim());
+                     } else if(lineNumber == 6){
+                         videoCard.setCoreClock(line.trim().replaceAll("Core Clock:", "").trim());
+                     } else if(lineNumber == 7){
+                         videoCard.setMulti_GPU(line.trim().replaceAll("Multi-GPU:", "").trim());
+                     } else if(lineNumber == 8){
+                         videoCard.setComp(line.trim().replaceAll("Compatilbility:", "").trim().split(", "));
+                     } else if(lineNumber == 9){
+                         videoCard.setPrice(Double.parseDouble(line.trim().replaceAll("Price:", "").replaceAll("\\$", "").trim()));
+                     } else if(lineNumber == 10){
+                         videoCard.setHdmiPort(line.trim().replaceAll("HDMI Ports:", "").trim() == "Yes" ? true : false);
+                     } else if(lineNumber == 11){
+                         videoCard.setDisplayPort(line.trim().replaceAll("Display Port:", "").trim() == "Yes" ? true : false);
+                     }
+                     videoCards.add(videoCard);
+                 }
+              } catch (FileNotFoundException ex) {
+                  Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+              } catch (IOException ex) {
+                  Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+              }
+         }
+          
+     }    
+    public static void fileReaderGTX1060(File geforceGTX1060){
         
-       
+        for(File item : geforceGTX1060.listFiles()){
+           //System.out.println(item.getName());
+           try (BufferedReader br = new BufferedReader(new FileReader(item))) {
+               String line = null;
+
+               SpecificationsForVideoCards videoCard = new SpecificationsForVideoCards();
+               
+               int lineNumber = 0;
+               while ((line = br.readLine()) != null) {
+                   lineNumber++;
+                   if (lineNumber == 1) {
+                       videoCard.setGpuName(line);
+                   } else if (lineNumber == 3) {
+                       videoCard.setWattageNecessary(line.trim().replaceAll("Wattage Necessary(TDP):", "").trim());
+                   } else if (lineNumber == 4) {
+                       videoCard.setChipset(line.trim().replaceAll("Chipset:", "").trim());
+                   } else if(lineNumber == 5){
+                       videoCard.setMemory(line.trim().replaceAll("Memory:", "").trim());
+                   } else if(lineNumber == 6){
+                       videoCard.setCoreClock(line.trim().replaceAll("Core Clock:", "").trim());
+                   } else if(lineNumber == 7){
+                       videoCard.setMulti_GPU(line.trim().replaceAll("Multi-GPU:", "").trim());
+                   } else if(lineNumber == 8){
+                       videoCard.setComp(line.trim().replaceAll("Compatilbility:", "").trim().split(", "));
+                   } else if(lineNumber == 9){
+                       videoCard.setPrice(Double.parseDouble(line.trim().replaceAll("Price:", "").replaceAll("\\$", "").trim()));
+                   } else if(lineNumber == 10){
+                       videoCard.setHdmiPort(line.trim().replaceAll("HDMI Ports:", "").trim() == "Yes" ? true : false);
+                   } else if(lineNumber == 11){
+                       videoCard.setDisplayPort(line.trim().replaceAll("Display Port:", "").trim() == "Yes" ? true : false);
+                   }
+                   videoCards.add(videoCard);
+               }
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            }
+       }
         
-       
-    }
-    
+   }    
+    public static void fileReaderGTX1060_3GB(File geforceGTX1060_3GB){
+        
+        for(File item : geforceGTX1060_3GB.listFiles()){
+           //System.out.println(item.getName());
+           try (BufferedReader br = new BufferedReader(new FileReader(item))) {
+               String line = null;
+
+               SpecificationsForVideoCards videoCard = new SpecificationsForVideoCards();
+               
+               int lineNumber = 0;
+               while ((line = br.readLine()) != null) {
+                   lineNumber++;
+                   if (lineNumber == 1) {
+                       videoCard.setGpuName(line);
+                   } else if (lineNumber == 3) {
+                       videoCard.setWattageNecessary(line.trim().replaceAll("Wattage Necessary(TDP):", "").trim());
+                   } else if (lineNumber == 4) {
+                       videoCard.setChipset(line.trim().replaceAll("Chipset:", "").trim());
+                   } else if(lineNumber == 5){
+                       videoCard.setMemory(line.trim().replaceAll("Memory:", "").trim());
+                   } else if(lineNumber == 6){
+                       videoCard.setCoreClock(line.trim().replaceAll("Core Clock:", "").trim());
+                   } else if(lineNumber == 7){
+                       videoCard.setMulti_GPU(line.trim().replaceAll("Multi-GPU:", "").trim());
+                   } else if(lineNumber == 8){
+                       videoCard.setComp(line.trim().replaceAll("Compatilbility:", "").trim().split(", "));
+                   } else if(lineNumber == 9){
+                       videoCard.setPrice(Double.parseDouble(line.trim().replaceAll("Price:", "").replaceAll("\\$", "").trim()));
+                   } else if(lineNumber == 10){
+                       videoCard.setHdmiPort(line.trim().replaceAll("HDMI Ports:", "").trim() == "Yes" ? true : false);
+                   } else if(lineNumber == 11){
+                       videoCard.setDisplayPort(line.trim().replaceAll("Display Port:", "").trim() == "Yes" ? true : false);
+                   }
+                   videoCards.add(videoCard);
+               }
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            }
+       }
+        
+   }    
+    public static void fileReaderGTX1060_6GB(File geforceGTX1060_6GB){
+        
+        for(File item : geforceGTX1060_6GB.listFiles()){
+           //System.out.println(item.getName());
+           try (BufferedReader br = new BufferedReader(new FileReader(item))) {
+               String line = null;
+
+               SpecificationsForVideoCards videoCard = new SpecificationsForVideoCards();
+               
+               int lineNumber = 0;
+               while ((line = br.readLine()) != null) {
+                   lineNumber++;
+                   if (lineNumber == 1) {
+                       videoCard.setGpuName(line);
+                   } else if (lineNumber == 3) {
+                       videoCard.setWattageNecessary(line.trim().replaceAll("Wattage Necessary(TDP):", "").trim());
+                   } else if (lineNumber == 4) {
+                       videoCard.setChipset(line.trim().replaceAll("Chipset:", "").trim());
+                   } else if(lineNumber == 5){
+                       videoCard.setMemory(line.trim().replaceAll("Memory:", "").trim());
+                   } else if(lineNumber == 6){
+                       videoCard.setCoreClock(line.trim().replaceAll("Core Clock:", "").trim());
+                   } else if(lineNumber == 7){
+                       videoCard.setMulti_GPU(line.trim().replaceAll("Multi-GPU:", "").trim());
+                   } else if(lineNumber == 8){
+                       videoCard.setComp(line.trim().replaceAll("Compatilbility:", "").trim().split(", "));
+                   } else if(lineNumber == 9){
+                       videoCard.setPrice(Double.parseDouble(line.trim().replaceAll("Price:", "").replaceAll("\\$", "").trim()));
+                   } else if(lineNumber == 10){
+                       videoCard.setHdmiPort(line.trim().replaceAll("HDMI Ports:", "").trim() == "Yes" ? true : false);
+                   } else if(lineNumber == 11){
+                       videoCard.setDisplayPort(line.trim().replaceAll("Display Port:", "").trim() == "Yes" ? true : false);
+                   }
+                   videoCards.add(videoCard);
+               }
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            }
+       }
+        
+   }    
+    public static void fileReaderGTX1070(File geforceGTX1070){
+        
+        for(File item : geforceGTX1070.listFiles()){
+           //System.out.println(item.getName());
+           try (BufferedReader br = new BufferedReader(new FileReader(item))) {
+               String line = null;
+
+               SpecificationsForVideoCards videoCard = new SpecificationsForVideoCards();
+               
+               int lineNumber = 0;
+               while ((line = br.readLine()) != null) {
+                   lineNumber++;
+                   if (lineNumber == 1) {
+                       videoCard.setGpuName(line);
+                   } else if (lineNumber == 3) {
+                       videoCard.setWattageNecessary(line.trim().replaceAll("Wattage Necessary(TDP):", "").trim());
+                   } else if (lineNumber == 4) {
+                       videoCard.setChipset(line.trim().replaceAll("Chipset:", "").trim());
+                   } else if(lineNumber == 5){
+                       videoCard.setMemory(line.trim().replaceAll("Memory:", "").trim());
+                   } else if(lineNumber == 6){
+                       videoCard.setCoreClock(line.trim().replaceAll("Core Clock:", "").trim());
+                   } else if(lineNumber == 7){
+                       videoCard.setMulti_GPU(line.trim().replaceAll("Multi-GPU:", "").trim());
+                   } else if(lineNumber == 8){
+                       videoCard.setComp(line.trim().replaceAll("Compatilbility:", "").trim().split(", "));
+                   } else if(lineNumber == 9){
+                       videoCard.setPrice(Double.parseDouble(line.trim().replaceAll("Price:", "").replaceAll("\\$", "").trim()));
+                   } else if(lineNumber == 10){
+                       videoCard.setHdmiPort(line.trim().replaceAll("HDMI Ports:", "").trim() == "Yes" ? true : false);
+                   } else if(lineNumber == 11){
+                       videoCard.setDisplayPort(line.trim().replaceAll("Display Port:", "").trim() == "Yes" ? true : false);
+                   }
+                   videoCards.add(videoCard);
+               }
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            }
+       }
+        
+   }    
+    public static void fileReaderGTX1080(File geforceGTX1080){
+        
+        for(File item : geforceGTX460.listFiles()){
+           //System.out.println(item.getName());
+           try (BufferedReader br = new BufferedReader(new FileReader(item))) {
+               String line = null;
+
+               SpecificationsForVideoCards videoCard = new SpecificationsForVideoCards();
+               
+               int lineNumber = 0;
+               while ((line = br.readLine()) != null) {
+                   lineNumber++;
+                   if (lineNumber == 1) {
+                       videoCard.setGpuName(line);
+                   } else if (lineNumber == 3) {
+                       videoCard.setWattageNecessary(line.trim().replaceAll("Wattage Necessary(TDP):", "").trim());
+                   } else if (lineNumber == 4) {
+                       videoCard.setChipset(line.trim().replaceAll("Chipset:", "").trim());
+                   } else if(lineNumber == 5){
+                       videoCard.setMemory(line.trim().replaceAll("Memory:", "").trim());
+                   } else if(lineNumber == 6){
+                       videoCard.setCoreClock(line.trim().replaceAll("Core Clock:", "").trim());
+                   } else if(lineNumber == 7){
+                       videoCard.setMulti_GPU(line.trim().replaceAll("Multi-GPU:", "").trim());
+                   } else if(lineNumber == 8){
+                       videoCard.setComp(line.trim().replaceAll("Compatilbility:", "").trim().split(", "));
+                   } else if(lineNumber == 9){
+                       videoCard.setPrice(Double.parseDouble(line.trim().replaceAll("Price:", "").replaceAll("\\$", "").trim()));
+                   } else if(lineNumber == 10){
+                       videoCard.setHdmiPort(line.trim().replaceAll("HDMI Ports:", "").trim() == "Yes" ? true : false);
+                   } else if(lineNumber == 11){
+                       videoCard.setDisplayPort(line.trim().replaceAll("Display Port:", "").trim() == "Yes" ? true : false);
+                   }
+                   videoCards.add(videoCard);
+               }
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            }
+       }
+        
+   }    
+    public static void fileReaderGTXTitanZ(File geforceGTXTitanZ){
+        
+        for(File item : geforceGTXTitanZ.listFiles()){
+           //System.out.println(item.getName());
+           try (BufferedReader br = new BufferedReader(new FileReader(item))) {
+               String line = null;
+
+               SpecificationsForVideoCards videoCard = new SpecificationsForVideoCards();
+               
+               int lineNumber = 0;
+               while ((line = br.readLine()) != null) {
+                   lineNumber++;
+                   if (lineNumber == 1) {
+                       videoCard.setGpuName(line);
+                   } else if (lineNumber == 3) {
+                       videoCard.setWattageNecessary(line.trim().replaceAll("Wattage Necessary(TDP):", "").trim());
+                   } else if (lineNumber == 4) {
+                       videoCard.setChipset(line.trim().replaceAll("Chipset:", "").trim());
+                   } else if(lineNumber == 5){
+                       videoCard.setMemory(line.trim().replaceAll("Memory:", "").trim());
+                   } else if(lineNumber == 6){
+                       videoCard.setCoreClock(line.trim().replaceAll("Core Clock:", "").trim());
+                   } else if(lineNumber == 7){
+                       videoCard.setMulti_GPU(line.trim().replaceAll("Multi-GPU:", "").trim());
+                   } else if(lineNumber == 8){
+                       videoCard.setComp(line.trim().replaceAll("Compatilbility:", "").trim().split(", "));
+                   } else if(lineNumber == 9){
+                       videoCard.setPrice(Double.parseDouble(line.trim().replaceAll("Price:", "").replaceAll("\\$", "").trim()));
+                   } else if(lineNumber == 10){
+                       videoCard.setHdmiPort(line.trim().replaceAll("HDMI Ports:", "").trim() == "Yes" ? true : false);
+                   } else if(lineNumber == 11){
+                       videoCard.setDisplayPort(line.trim().replaceAll("Display Port:", "").trim() == "Yes" ? true : false);
+                   }
+                   videoCards.add(videoCard);
+               }
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            }
+       }
+        
+   }    
+    public static void fileReaderGTXTitanX(File geforceGTXTitanX){
+        
+        for(File item : geforceGTXTitanX.listFiles()){
+           //System.out.println(item.getName());
+           try (BufferedReader br = new BufferedReader(new FileReader(item))) {
+               String line = null;
+
+               SpecificationsForVideoCards videoCard = new SpecificationsForVideoCards();
+               
+               int lineNumber = 0;
+               while ((line = br.readLine()) != null) {
+                   lineNumber++;
+                   if (lineNumber == 1) {
+                       videoCard.setGpuName(line);
+                   } else if (lineNumber == 3) {
+                       videoCard.setWattageNecessary(line.trim().replaceAll("Wattage Necessary(TDP):", "").trim());
+                   } else if (lineNumber == 4) {
+                       videoCard.setChipset(line.trim().replaceAll("Chipset:", "").trim());
+                   } else if(lineNumber == 5){
+                       videoCard.setMemory(line.trim().replaceAll("Memory:", "").trim());
+                   } else if(lineNumber == 6){
+                       videoCard.setCoreClock(line.trim().replaceAll("Core Clock:", "").trim());
+                   } else if(lineNumber == 7){
+                       videoCard.setMulti_GPU(line.trim().replaceAll("Multi-GPU:", "").trim());
+                   } else if(lineNumber == 8){
+                       videoCard.setComp(line.trim().replaceAll("Compatilbility:", "").trim().split(", "));
+                   } else if(lineNumber == 9){
+                       videoCard.setPrice(Double.parseDouble(line.trim().replaceAll("Price:", "").replaceAll("\\$", "").trim()));
+                   } else if(lineNumber == 10){
+                       videoCard.setHdmiPort(line.trim().replaceAll("HDMI Ports:", "").trim() == "Yes" ? true : false);
+                   } else if(lineNumber == 11){
+                       videoCard.setDisplayPort(line.trim().replaceAll("Display Port:", "").trim() == "Yes" ? true : false);
+                   }
+                   videoCards.add(videoCard);
+               }
+            } catch (FileNotFoundException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            } catch (IOException ex) {
+                Logger.getLogger(PCBuilder.class.getName()).log(Level.SEVERE, null, ex);
+            }
+       }
+        
+   }    
 }
