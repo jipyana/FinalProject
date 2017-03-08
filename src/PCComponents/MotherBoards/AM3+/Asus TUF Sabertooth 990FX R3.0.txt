@@ -1,0 +1,15 @@
+Asus TUF Sabertooth 990FX R3.0
+
+		Manufacturer:  Asus
+		Part #:  TUF Sabertooth 990FX R3.0
+		Form Factor:  ATX
+		CPU Socket:  AM3+
+		Chipset:  AMD 990FX
+		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866
+		Maximum Support Memory:  32GB
+		Onborad Ethernet:  Yes
+		Onboard USB 3.0:  Yes
+		SLI Support(Nvidia):  3-Way SLI	
+		Crossfire Support:(AMD):   Yes
+		Sata Ports:  5
+		Price: $197.99

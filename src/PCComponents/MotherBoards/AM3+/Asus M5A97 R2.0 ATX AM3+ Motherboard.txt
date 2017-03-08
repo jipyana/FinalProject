@@ -1,0 +1,15 @@
+Asus M5A97 R2.0 ATX AM3+ Motherboard
+
+		Manufacturer:  Asus
+		Part #:  M5A97 R2.0
+		Form Factor:  ATX
+		CPU Socket:  AM3+
+		Chipset:  AMD AM3+ 
+		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2133
+		Maximum Support Memory:  32GB
+		Onborad Ethernet:  Yes	
+		Onboard USB 3.0:  Yes
+		SLI Support(Nvidia):  No
+		Crossfire Support:(AMD): Yes   
+		Sata Ports:  6
+		Price: $79.88

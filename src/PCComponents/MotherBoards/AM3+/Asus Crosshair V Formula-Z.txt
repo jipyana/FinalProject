@@ -1,0 +1,15 @@
+Asus Crosshair V Formula-Z
+
+		Manufacturer:  Asus
+		Part #:  Crosshair V Formula-Z
+		Form Factor:  ATX
+		CPU Socket:  AM3+
+		Chipset:  AMD AM3+
+		Memory Type:  DDR3-1066 / 1333 / 1600 / 1800 / 2000 / 2133 / 2400
+		Maximum Support Memory:  32GB
+		Onborad Ethernet:  Yes
+		Onboard USB 3.0:  Yes
+		SLI Support(Nvidia):  3-Way SLI
+		Crossfire Support:(AMD):   Yes
+		Sata Ports:  8
+		Price: $215.99

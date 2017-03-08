@@ -1,0 +1,15 @@
+	Gigabyte GA-970A-UD3P
+	
+		Manufacturer:  Gigabyte
+		Part #:  GA-970A-UD3P
+		Form Factor:  ATX
+		CPU Socket:  AM3+
+		Chipset:  AMD AM3+
+		Memory Type:  32GB
+		Maximum Support Memory:  DDR3-1066 / 1333 / 1600 / 1866 / 2000
+		Onborad Ethernet:  Yes
+		Onboard USB 3.0:  Yes
+		SLI Support(Nvidia):  No	
+		Crossfire Support:(AMD):  Yes  
+		Sata Ports:  6
+		Price: $94.88

@@ -1,0 +1,15 @@
+ASRock 970 EXTREME4
+
+		Manufacturer:  ASRock
+		Part #:  970 EXTREME4
+		Form Factor:  ATX
+		CPU Socket:  AM3+
+		Chipset:  AMD AM3+
+		Memory Type:  DDR3-800 / 1066 / 1333 / 1600 / 1800 / 1866
+		Maximum Support Memory:  32GB
+		Onborad Ethernet: Yes
+		Onboard USB 3.0:  Yes
+		SLI Support(Nvidia):  Yes
+		Crossfire Support:(AMD): Yes   
+		Sata Ports:  5
+		Price: $69.58

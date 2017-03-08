@@ -1,0 +1,15 @@
+	ASRock 990FX Extreme9 ATX AM3+ Motherboard
+	
+		Manufacturer:  ASRock
+		Part #:  990FX Extreme9
+		Form Factor:  ATX
+		CPU Socket:  AM3+
+		Chipset:  AMD AM3+
+		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2100
+		Maximum Support Memory:  64GB 
+		Onborad Ethernet:  Yes
+		Onboard USB 3.0:  Yes	
+		SLI Support(Nvidia):  3-Way SLI
+		Crossfire Support:(AMD):   Yes
+		Sata Ports:  8
+		Price: $136.99

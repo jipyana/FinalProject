@@ -1,0 +1,15 @@
+ASRock AM1B-M Micro ATX AM1 Motherboard
+
+	Manufacturer:  ASRock
+	Part #:  AM1B-M
+	Form Factor:  Micro ATX
+	CPU Socket: AM1
+	Chipset: AMD AM1
+	Memory Type: DDR3-1066 / 1333 / 1600
+	Maximum Support Memory:  32GB
+	Onborad Ethernet: Yes
+	Onboard USB 3.0:  No
+	SLI Support(Nvidia): No
+	Crossfire Support:(AMD): No 
+	Sata Ports:  2
+	Price: $26.99

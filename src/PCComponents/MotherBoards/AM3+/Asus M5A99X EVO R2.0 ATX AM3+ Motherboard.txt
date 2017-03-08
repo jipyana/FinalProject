@@ -1,0 +1,15 @@
+Asus M5A99X EVO R2.0 ATX AM3+ Motherboard
+
+		Manufacturer:  Asus
+		Part #:  M5A99X EVO R2.0
+		Form Factor:  ATX	
+		CPU Socket:  AM3+
+		Chipset:  AMD 990X
+		Memory Type: DDR3-1066 / 1333 / 1600 / 1866 / 2133
+		Maximum Support Memory:  32GB
+		Onborad Ethernet:   Yes
+		Onboard USB 3.0:  Yes
+		SLI Support(Nvidia): Yes
+		Crossfire Support:(AMD): Yes   
+		Sata Ports:  6
+		Price: $121.99

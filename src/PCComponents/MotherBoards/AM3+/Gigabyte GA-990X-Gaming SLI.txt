@@ -1,0 +1,15 @@
+Gigabyte GA-990X-Gaming SLI		
+
+		Manufacturer:  Gigabyte
+		Part #:  GA-990X-Gaming SLI
+		Form Factor:  ATX
+		CPU Socket:  AM3+
+		Chipset: AMD 990X 
+		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2000
+		Maximum Support Memory:  64GB
+		Onborad Ethernet:  Yes
+		Onboard USB 3.0:  Yes
+		SLI Support(Nvidia):  Yes
+		Crossfire Support:(AMD):  Yes
+		Sata Ports:  6
+		Price: $86.99

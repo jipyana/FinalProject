@@ -1,0 +1,15 @@
+ASRock AM1H-ITX
+
+	Manufacturer: ASRock
+	Part #:  AM1H-ITX
+	Form Factor:  Mini ITX
+	CPU Socket: AM1 
+	Chipset:  AMD AM1
+	Memory Type:  DDR3-1066 / 1333 / 1600
+	Maximum Support Memory:  16GB
+	Onborad Ethernet: Yes
+	Onboard USB 3.0:  Yes
+	SLI Support(Nvidia): No
+	Crossfire Support:(AMD): No   
+	Sata Ports:  4
+	Price: $43.99
