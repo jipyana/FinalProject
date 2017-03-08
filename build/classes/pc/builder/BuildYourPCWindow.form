@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
   </Properties>
@@ -23,228 +23,231 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Group type="102" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="cPU" min="-2" pref="96" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-                              <Component id="motheBoard" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="powerSupply" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
-                              <Component id="memory" min="-2" pref="132" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                      <Component id="videoCard" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="hardDrive" min="-2" pref="152" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                      <Component id="Case" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Component id="heatSink" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
-                          <Component id="oS" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Component id="partSelector" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
-              <Component id="jInternalFrame2" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="103" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+              <Component id="desktopPane" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="cPU" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="motheBoard" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
-                  <Component id="videoCard" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="hardDrive" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="Case" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="powerSupply" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="memory" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="heatSink" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-                  <Component id="oS" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
-              </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="partSelector" min="-2" max="-2" attributes="0"/>
-                  <Component id="jInternalFrame2" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <Component id="desktopPane" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="52" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Container class="javax.swing.JInternalFrame" name="partSelector">
-      <Properties>
-        <Property name="visible" type="boolean" value="true"/>
-      </Properties>
-      <Events>
-        <EventHandler event="internalFrameActivated" listener="javax.swing.event.InternalFrameListener" parameters="javax.swing.event.InternalFrameEvent" handler="partSelectorInternalFrameActivated"/>
-      </Events>
+    <Container class="javax.swing.JDesktopPane" name="desktopPane">
 
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
-                  <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="731" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="cPU" min="-2" pref="96" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                                  <Component id="motheBoard" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="powerSupply" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                                  <Component id="memory" min="-2" pref="132" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                          <Component id="videoCard" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="hardDrive" min="-2" pref="152" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="Case" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="464" max="-2" attributes="0"/>
+                          <Component id="heatSink" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                          <Component id="oS" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="partSelector" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                  <Component id="shoppingCart" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="100" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-                  <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="873" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="cPU" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="motheBoard" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                      <Component id="videoCard" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="hardDrive" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="Case" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="powerSupply" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="memory" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="heatSink" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                      <Component id="oS" alignment="3" min="-2" pref="44" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="shoppingCart" max="32767" attributes="0"/>
+                      <Component id="partSelector" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="74" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+        <Component class="javax.swing.JButton" name="videoCard">
           <Properties>
-            <Property name="text" type="java.lang.String" value="jCheckBox1"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Video Card"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="videoCardActionPerformed"/>
           </Events>
         </Component>
-      </SubComponents>
-    </Container>
-    <Component class="javax.swing.JButton" name="hardDrive">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Hard Drive"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hardDriveActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="motheBoard">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="MotherBoard"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="motheBoardActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="cPU">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="CPU"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cPUActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="memory">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Memory"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="memoryActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="oS">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Operating System"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="oSActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="heatSink">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Heat Sink"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="heatSinkActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="powerSupply">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Power Supply"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="powerSupplyActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="videoCard">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Video Card"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="videoCardActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="Case">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Gadugi" size="21" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="Case"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CaseActionPerformed"/>
-      </Events>
-    </Component>
-    <Container class="javax.swing.JInternalFrame" name="jInternalFrame2">
-      <Properties>
-        <Property name="visible" type="boolean" value="true"/>
-      </Properties>
+        <Component class="javax.swing.JButton" name="Case">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Case"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CaseActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="hardDrive">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Hard Drive"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hardDriveActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="motheBoard">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="MotherBoard"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="motheBoardActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="cPU">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="CPU"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cPUActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="memory">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Memory"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="memoryActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="oS">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Operating System"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="oSActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="heatSink">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Heat Sink"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="heatSinkActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="powerSupply">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Gadugi" size="21" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Power Supply"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="powerSupplyActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JInternalFrame" name="partSelector">
+          <Properties>
+            <Property name="visible" type="boolean" value="true"/>
+          </Properties>
 
-      <Layout>
-        <DimensionLayout dim="0">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="363" max="32767" attributes="0"/>
-          </Group>
-        </DimensionLayout>
-        <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="931" max="32767" attributes="0"/>
-          </Group>
-        </DimensionLayout>
-      </Layout>
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Container class="javax.swing.JInternalFrame" name="shoppingCart">
+          <Properties>
+            <Property name="visible" type="boolean" value="true"/>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="476" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="771" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+      </SubComponents>
     </Container>
   </SubComponents>
 </Form>

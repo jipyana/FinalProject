@@ -36,8 +36,9 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        partSelector = new javax.swing.JInternalFrame();
-        jCheckBox1 = new javax.swing.JCheckBox();
+        desktopPane = new javax.swing.JDesktopPane();
+        videoCard = new javax.swing.JButton();
+        Case = new javax.swing.JButton();
         hardDrive = new javax.swing.JButton();
         motheBoard = new javax.swing.JButton();
         cPU = new javax.swing.JButton();
@@ -45,54 +46,26 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
         oS = new javax.swing.JButton();
         heatSink = new javax.swing.JButton();
         powerSupply = new javax.swing.JButton();
-        videoCard = new javax.swing.JButton();
-        Case = new javax.swing.JButton();
-        jInternalFrame2 = new javax.swing.JInternalFrame();
+        partSelector = new javax.swing.JInternalFrame();
+        shoppingCart = new javax.swing.JInternalFrame();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        partSelector.setVisible(true);
-        partSelector.addInternalFrameListener(new javax.swing.event.InternalFrameListener() {
-            public void internalFrameActivated(javax.swing.event.InternalFrameEvent evt) {
-                partSelectorInternalFrameActivated(evt);
-            }
-            public void internalFrameClosed(javax.swing.event.InternalFrameEvent evt) {
-            }
-            public void internalFrameClosing(javax.swing.event.InternalFrameEvent evt) {
-            }
-            public void internalFrameDeactivated(javax.swing.event.InternalFrameEvent evt) {
-            }
-            public void internalFrameDeiconified(javax.swing.event.InternalFrameEvent evt) {
-            }
-            public void internalFrameIconified(javax.swing.event.InternalFrameEvent evt) {
-            }
-            public void internalFrameOpened(javax.swing.event.InternalFrameEvent evt) {
-            }
-        });
-
-        jCheckBox1.setText("jCheckBox1");
-        jCheckBox1.addActionListener(new java.awt.event.ActionListener() {
+        videoCard.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
+        videoCard.setText("Video Card");
+        videoCard.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jCheckBox1ActionPerformed(evt);
+                videoCardActionPerformed(evt);
             }
         });
 
-        javax.swing.GroupLayout partSelectorLayout = new javax.swing.GroupLayout(partSelector.getContentPane());
-        partSelector.getContentPane().setLayout(partSelectorLayout);
-        partSelectorLayout.setHorizontalGroup(
-            partSelectorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(partSelectorLayout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addComponent(jCheckBox1)
-                .addContainerGap(731, Short.MAX_VALUE))
-        );
-        partSelectorLayout.setVerticalGroup(
-            partSelectorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(partSelectorLayout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addComponent(jCheckBox1)
-                .addContainerGap(873, Short.MAX_VALUE))
-        );
+        Case.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
+        Case.setText("Case");
+        Case.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CaseActionPerformed(evt);
+            }
+        });
 
         hardDrive.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
         hardDrive.setText("Hard Drive");
@@ -150,49 +123,58 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
             }
         });
 
-        videoCard.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
-        videoCard.setText("Video Card");
-        videoCard.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                videoCardActionPerformed(evt);
-            }
-        });
+        partSelector.setVisible(true);
 
-        Case.setFont(new java.awt.Font("Gadugi", 1, 21)); // NOI18N
-        Case.setText("Case");
-        Case.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                CaseActionPerformed(evt);
-            }
-        });
-
-        jInternalFrame2.setVisible(true);
-
-        javax.swing.GroupLayout jInternalFrame2Layout = new javax.swing.GroupLayout(jInternalFrame2.getContentPane());
-        jInternalFrame2.getContentPane().setLayout(jInternalFrame2Layout);
-        jInternalFrame2Layout.setHorizontalGroup(
-            jInternalFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 363, Short.MAX_VALUE)
+        javax.swing.GroupLayout partSelectorLayout = new javax.swing.GroupLayout(partSelector.getContentPane());
+        partSelector.getContentPane().setLayout(partSelectorLayout);
+        partSelectorLayout.setHorizontalGroup(
+            partSelectorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
-        jInternalFrame2Layout.setVerticalGroup(
-            jInternalFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 931, Short.MAX_VALUE)
+        partSelectorLayout.setVerticalGroup(
+            partSelectorLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
+        shoppingCart.setVisible(true);
+
+        javax.swing.GroupLayout shoppingCartLayout = new javax.swing.GroupLayout(shoppingCart.getContentPane());
+        shoppingCart.getContentPane().setLayout(shoppingCartLayout);
+        shoppingCartLayout.setHorizontalGroup(
+            shoppingCartLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 476, Short.MAX_VALUE)
+        );
+        shoppingCartLayout.setVerticalGroup(
+            shoppingCartLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 771, Short.MAX_VALUE)
+        );
+
+        desktopPane.setLayer(videoCard, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(Case, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(hardDrive, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(motheBoard, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(cPU, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(memory, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(oS, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(heatSink, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(powerSupply, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(partSelector, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        desktopPane.setLayer(shoppingCart, javax.swing.JLayeredPane.DEFAULT_LAYER);
+
+        javax.swing.GroupLayout desktopPaneLayout = new javax.swing.GroupLayout(desktopPane);
+        desktopPane.setLayout(desktopPaneLayout);
+        desktopPaneLayout.setHorizontalGroup(
+            desktopPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(desktopPaneLayout.createSequentialGroup()
+                .addGap(52, 52, 52)
+                .addGroup(desktopPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(desktopPaneLayout.createSequentialGroup()
+                        .addGroup(desktopPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(desktopPaneLayout.createSequentialGroup()
                                 .addComponent(cPU, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(62, 62, 62)
                                 .addComponent(motheBoard))
-                            .addGroup(layout.createSequentialGroup()
+                            .addGroup(desktopPaneLayout.createSequentialGroup()
                                 .addComponent(powerSupply)
                                 .addGap(74, 74, 74)
                                 .addComponent(memory, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -202,37 +184,54 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
                         .addComponent(hardDrive, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(42, 42, 42)
                         .addComponent(Case))
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                        .addGroup(layout.createSequentialGroup()
-                            .addComponent(heatSink)
-                            .addGap(61, 61, 61)
-                            .addComponent(oS))
-                        .addComponent(partSelector, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(61, 61, 61)
-                .addComponent(jInternalFrame2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(103, Short.MAX_VALUE))
+                    .addGroup(desktopPaneLayout.createSequentialGroup()
+                        .addGap(464, 464, 464)
+                        .addComponent(heatSink)
+                        .addGap(61, 61, 61)
+                        .addComponent(oS))
+                    .addComponent(partSelector))
+                .addGap(57, 57, 57)
+                .addComponent(shoppingCart, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(100, Short.MAX_VALUE))
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(22, 22, 22)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+        desktopPaneLayout.setVerticalGroup(
+            desktopPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(desktopPaneLayout.createSequentialGroup()
+                .addGap(43, 43, 43)
+                .addGroup(desktopPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(cPU, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(motheBoard, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(videoCard, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(hardDrive, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(Case, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(11, 11, 11)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(desktopPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(powerSupply, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(memory, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(heatSink, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(oS, javax.swing.GroupLayout.PREFERRED_SIZE, 44, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(partSelector, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jInternalFrame2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(desktopPaneLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(shoppingCart)
+                    .addComponent(partSelector))
+                .addContainerGap(74, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(49, 49, 49)
+                .addComponent(desktopPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(desktopPane, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(52, Short.MAX_VALUE))
         );
 
         pack();
@@ -240,24 +239,13 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
 
     private void cPUActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cPUActionPerformed
        System.out.println("CPU button was pressed.");
+//       for(partSelector.action(evt, evt)){
+//           
+//       }
+       
        
 
     }//GEN-LAST:event_cPUActionPerformed
-
-    private void partSelectorInternalFrameActivated(javax.swing.event.InternalFrameEvent evt) {//GEN-FIRST:event_partSelectorInternalFrameActivated
-        System.out.println("Activated.");
-        for (SpecificationsForVideoCards videoCard : PCBuilder.videoCards) {
-            javax.swing.JCheckBox checkbox = new javax.swing.JCheckBox(); 
-            checkbox.setText(videoCard.getGpuName());
-            checkbox.addActionListener(new java.awt.event.ActionListener() {
-                public void actionPerformed(java.awt.event.ActionEvent evt) {
-                    
-                }
-            });
-            evt.getInternalFrame().add(checkbox);
-        }
-        
-    }//GEN-LAST:event_partSelectorInternalFrameActivated
 
     private void hardDriveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hardDriveActionPerformed
         System.out.println("Hard Drive button was pressed.");
@@ -295,10 +283,6 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
     private void heatSinkActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heatSinkActionPerformed
         System.out.println("Heat sink button was pressed.");
     }//GEN-LAST:event_heatSinkActionPerformed
-
-    private void jCheckBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCheckBox1ActionPerformed
-//        jCheckBox1
-    }//GEN-LAST:event_jCheckBox1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -367,15 +351,15 @@ public class BuildYourPCWindow extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton Case;
     private javax.swing.JButton cPU;
+    private javax.swing.JDesktopPane desktopPane;
     private javax.swing.JButton hardDrive;
     private javax.swing.JButton heatSink;
-    private javax.swing.JCheckBox jCheckBox1;
-    private javax.swing.JInternalFrame jInternalFrame2;
     private javax.swing.JButton memory;
     private javax.swing.JButton motheBoard;
     private javax.swing.JButton oS;
     private javax.swing.JInternalFrame partSelector;
     private javax.swing.JButton powerSupply;
+    private javax.swing.JInternalFrame shoppingCart;
     private javax.swing.JButton videoCard;
     // End of variables declaration//GEN-END:variables
 }

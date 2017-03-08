@@ -5,11 +5,18 @@
  */
 package pc.builder;
 
+import javax.swing.JDesktopPane;
+import javax.swing.JInternalFrame;
+
 /**
  *
  * @author Jamila
  */
 public class MainFrame extends javax.swing.JFrame {
+    
+    JDesktopPane desktopPane = new JDesktopPane();
+	JInternalFrame partSelector = new JInternalFrame("Frame 1", true, true, true, true),
+			shoppingCart = new JInternalFrame("Frame 2", true, true, true, true);
 
     /**
      * Creates new form MainFrame
