@@ -5,7 +5,7 @@ MSI 970A-G43
 		Form Factor:  ATX
 		CPU Socket:  AM3+
 		Chipset: AMD 970
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2133
+		Memory Type:  DDR3-1066, DDR3-1333, DDR3-1600, DDR3-1866, DDR3-2133
 		Maximum Support Memory:  32GB
 		Onborad Ethernet:  Yes
 		Onboard USB 3.0:  Yes

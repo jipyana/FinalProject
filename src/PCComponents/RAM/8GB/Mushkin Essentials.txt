@@ -1,0 +1,7 @@
+Mushkin Essentials
+
+		Manufacturer:  Mushkin
+		Modules: 1x8GB
+		Memory Type:  DDR3-1066
+		Voltage:  1.5V
+		Price:  $42.49

@@ -5,7 +5,7 @@ Asus AM1I-A Mini ITX AM1 Motherboard
 	Form Factor:  Mini-ITX
 	CPU Socket:  AM1
 	Chipset: AMD AM1
-	Memory Type: DDR3-1066 / 1333 / 1600
+	Memory Type: DDR3-1066, DDR3-1333, DDR3-1600
 	Maximum Support Memory:  32GB
 	Onborad Ethernet: Yes
 	Onboard USB 3.0:  No

@@ -6,7 +6,7 @@
 		CPU Socket:  AM3+
 		Chipset:  AMD AM3+
 		Memory Type:  32GB
-		Maximum Support Memory:  DDR3-1066 / 1333 / 1600 / 1866 / 2000
+		Maximum Support Memory:  DDR3-1066, DDR3-1333, DDR3-1600, DDR3-1866, DDR3-2000
 		Onborad Ethernet:  Yes
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia):  No	

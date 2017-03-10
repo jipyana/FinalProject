@@ -1,0 +1,7 @@
+G.Skill NS Series
+
+		Manufacturer:  G.Skill
+		Modules: 1x4GB
+		Memory Type:  DDR3-1333
+		Voltage:  1.5V
+		Price:  $26.98

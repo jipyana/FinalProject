@@ -1,0 +1,7 @@
+G.Skill Ripjaws Series
+	
+		Manufacturer: G. Skill
+		Modules: 1x4GB
+		Memory Type:  DDR3-1066
+		Voltage: 1.5V
+		Price: $30.98

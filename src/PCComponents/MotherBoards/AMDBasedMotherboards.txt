@@ -1,367 +1,43 @@
 Motherboards
 
 AM1
-
-ASRock AM1B-M Micro ATX AM1 Motherboard
-	Manufacturer:  ASRock
-	Part #:  AM1B-M
-	Form Factor:  Micro ATX
-	CPU Socket: AM1
-	Chipset: AMD AM1
-	Memory Type: DDR3-1066 / 1333 / 1600
-	Maximum Support Memory:  32GB
-	Onborad Ethernet: Yes
-	Onboard USB 3.0:  No
-	SLI Support(Nvidia): No
-	Crossfire Support:(AMD): No 
-	Sata Ports:  2
-	Price: $26.99
-	
-Asus AM1M-A Micro ATX AM1 Motherboard
-	Manufacturer:  Asus
-	Part #:  AM1M-A
-	Form Factor:  Micro ATX
-	CPU Socket:  AM1
-	Chipset: AMD AM1
-	Memory Type: DDR3-1333 / 1600 / 1866
-	Maximum Support Memory:  32GB
-	Onborad Ethernet: Yes
-	Onboard USB 3.0:  Yes
-	SLI Support(Nvidia): No
-	Crossfire Support:(AMD): No  
-	Sata Ports:  2
-	Price: $30.09
-	
-ASRock AM1B-M Micro ATX AM1 Motherboard
-	Manufacturer:  ASRock
-	Part #:  AM1B-M
-	Form Factor:  Micro ATX
-	CPU Socket:  AM1
-	Chipset:  AMD AM1
-	Memory Type:  DDR3-1066 / 1333 / 1600
-	Maximum Support Memory:  32GB 
-	Onborad Ethernet: Yes
-	Onboard USB 3.0:  No
-	SLI Support(Nvidia):  No
-	Crossfire Support:(AMD): No   
-	Sata Ports:  2
-	Price: $34.99
-	
-Gigabyte GA-AM1M-S2H
-	Manufacturer: Gigabyte
-	Part #:  GA-AM1M-S2H
-	Form Factor:  Micro ATX
-	CPU Socket:  AM1
-	Chipset:  AMD AM1
-	Memory Type: DDR3-1333 / 1600
-	Maximum Support Memory:  32GB
-	Onborad Ethernet: Yes
-	Onboard USB 3.0:  No
-	SLI Support(Nvidia):  No
-	Crossfire Support:(AMD): No   
-	Sata Ports:  2
-	Price: $34.99
-
-ASRock AM1H-ITX
-	Manufacturer: ASRock
-	Part #:  AM1H-ITX
-	Form Factor:  Mini ITX
-	CPU Socket: AM1 
-	Chipset:  AMD AM1
-	Memory Type:  DDR3-1066 / 1333 / 1600
-	Maximum Support Memory:  16GB
-	Onborad Ethernet: Yes
-	Onboard USB 3.0:  Yes
-	SLI Support(Nvidia): No
-	Crossfire Support:(AMD): No   
-	Sata Ports:  4
-	Price: $43.99
-	
-Asus AM1I-A Mini ITX AM1 Motherboard
-	Manufacturer:  Asus
-	Part #:  AM1I-A
-	Form Factor:  Mini-ITX
-	CPU Socket:  AM1
-	Chipset: AMD AM1
-	Memory Type: DDR3-1066 / 1333 / 1600
-	Maximum Support Memory:  32GB
-	Onborad Ethernet: Yes
-	Onboard USB 3.0:  No
-	SLI Support(Nvidia): No
-	Crossfire Support:(AMD): No   
-	Sata Ports:  2
-	Price: $69.16
-
+	Done
 AM3+
-	Asus Sabertooth 990FX R2.0
-		Manufacturer: Asus 
-		Part #:  SABERTOOTH 990FX R2.0
-		Form Factor:  ATX
-		CPU Socket:  AMD3+
-		Chipset: AMD 990FX
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866
-		Maximum Support Memory:  32GB
-		Onborad Ethernet: Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia): Yes
-		Crossfire Support:(AMD): 3-Way- SLI   
-		Sata Ports:  8
-		Price: $161.98
-		
-	Asus M5A99FX PRO R2.0 ATX AM3+ Motherboard
-		Manufacturer:  Asus
-		Part #:  M5A99FX PRO R2.0
-		Form Factor:  ATX
-		CPU Socket:  AMD3+
-		Chipset:  AMD 990FX
-		Memory Type: DDR3-1066 / 1333 / 1600 / 1866 / 2133
-		Maximum Support Memory:  32GB
-		Onborad Ethernet: Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia): Yes
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  7
-		Price: $133.89
-		
-	Asus M5A99X EVO R2.0 ATX AM3+ Motherboard
-		Manufacturer:  Asus
-		Part #:  M5A99X EVO R2.0
-		Form Factor:  ATX	
-		CPU Socket:  AM3+
-		Chipset:  AMD 990X
-		Memory Type: DDR3-1066 / 1333 / 1600 / 1866 / 2133
-		Maximum Support Memory:  32GB
-		Onborad Ethernet:   Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia): Yes
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  6
-		Price: $121.99
-
-Asus Crosshair V Formula-Z
-		Manufacturer:  Asus
-		Part #:  Crosshair V Formula-Z
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD AM3+
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1800 / 2000 / 2133 / 2400
-		Maximum Support Memory:  32GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  3-Way SLI
-		Crossfire Support:(AMD):   Yes
-		Sata Ports:  8
-		Price: $215.99
-		
-	Gigabyte GA-990FXA-UD3
-		Manufacturer:  Gigabyte	
-		Part #:  GA-990FXA-UD3
-		Form Factor:  ATX 
-		CPU Socket:  AM3+
-		Chipset:  AMD AM3+
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2000
-		Maximum Support Memory:  32GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  Yes
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  6
-		Price: $199.88
-		
-	MSI 970 GAMING
-		Manufacturer:  MSI
-		Part #:  970 GAMING
-		Form Factor:  ATX 
-		CPU Socket:  AM3+
-		Chipset:  AMD AM3+
-		Memory Type: DDR3-1066 / 1333 / 1600 / 1866 / 2133
-		Maximum Support Memory:  32GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  Yes
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  6
-		Price: $92.98
-		
-	Asus M5A97 R2.0 ATX AM3+ Motherboard
-		Manufacturer:  Asus
-		Part #:  M5A97 R2.0
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD AM3+ 
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2133
-		Maximum Support Memory:  32GB
-		Onborad Ethernet:  Yes	
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  No
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  6
-		Price: $79.88
-
-	ASRock 990FX Extreme9 ATX AM3+ Motherboard
-		Manufacturer:  ASRock
-		Part #:  990FX Extreme9
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD AM3+
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2100
-		Maximum Support Memory:  64GB 
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes	
-		SLI Support(Nvidia):  3-Way SLI
-		Crossfire Support:(AMD):   Yes
-		Sata Ports:  8
-		Price: $136.99
-		
-	ASRock 970 EXTREME4
-		Manufacturer:  ASRock
-		Part #:  970 EXTREME4
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD AM3+
-		Memory Type:  DDR3-800 / 1066 / 1333 / 1600 / 1800 / 1866
-		Maximum Support Memory:  32GB
-		Onborad Ethernet: Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  Yes
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  5
-		Price: $69.58
-		
-	Gigabyte GA-970A-UD3P
-		Manufacturer:  Gigabyte
-		Part #:  GA-970A-UD3P
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD AM3+
-		Memory Type:  32GB
-		Maximum Support Memory:  DDR3-1066 / 1333 / 1600 / 1866 / 2000
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  No	
-		Crossfire Support:(AMD):  Yes  
-		Sata Ports:  6
-		Price: $94.88
-		
-	ASRock 990FX Killer
-		Manufacturer:  ASRock
-		Part #:  990FX KILLER
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD 990FX
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 2100
-		Maximum Support Memory:  64GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  Yes
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  5
-		Price: $93.98
-		
-	Gigabyte GA-970A-UD3
-		Manufacturer:  Gigabyte
-		Part #:  GA-970A-UD3P
-		Form Factor:  ATX 
-		CPU Socket:  AM3+
-		Chipset: AMD 970
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2000
-		Maximum Support Memory:  32GB
-		Onborad Ethernet: Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia): No	
-		Crossfire Support:(AMD):  Yes  
-		Sata Ports:  6
-		Price: $97.99
 	
-	Asus Crosshair V Formula
-		Manufacturer:  Asus
-		Part #:  AMD 990FX
-		Form Factor:  ATX	
-		CPU Socket:  AM3+
-		Chipset:  AMD 990FX
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1800 / 2000 / 2133
-		Maximum Support Memory:  32GB
-		Onborad Ethernet: Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia): 3-Way SLI
-		Crossfire Support:(AMD):   Yes
-		Sata Ports:  7
-		Price: $290.55
+		
+
+		
 	
-	MSI 970A-G43
-		Manufacturer:  MSI
-		Part #:  970A-G43
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset: AMD 970
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2133
-		Maximum Support Memory:  32GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia): No
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  6
-		Price: $159.88
+
+
 		
-	Asus M5A97 LE R2.0
-		Manufacturer: Asus
-		Part #:  M5A97 LE R2.0
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD 970
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2133
-		Maximum Support Memory:  32GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  No
-		SLI Support(Nvidia): No
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  6
-		Price: $64.99
+	
 		
-	Gigabyte GA-990FXA-UD3 Ultra
-		Manufacturer:  Gigabyte
-		Part #:  GA-990FXA-UD3 Ultra
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD 990FX
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2000
-		Maximum Support Memory:  64GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  Yes
-		Crossfire Support:(AMD): Yes   
-		Sata Ports:  6
-		Price: $129.99
+
 		
-	Asus TUF Sabertooth 990FX R3.0
-		Manufacturer:  Asus
-		Part #:  TUF Sabertooth 990FX R3.0
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset:  AMD 990FX
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866
-		Maximum Support Memory:  32GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  3-Way SLI	
-		Crossfire Support:(AMD):   Yes
-		Sata Ports:  5
-		Price: $197.99
+	
+
+
 		
-	Gigabyte GA-990X-Gaming SLI		
-		Manufacturer:  Gigabyte
-		Part #:  GA-990X-Gaming SLI
-		Form Factor:  ATX
-		CPU Socket:  AM3+
-		Chipset: AMD 990X 
-		Memory Type:  DDR3-1066 / 1333 / 1600 / 1866 / 2000
-		Maximum Support Memory:  64GB
-		Onborad Ethernet:  Yes
-		Onboard USB 3.0:  Yes
-		SLI Support(Nvidia):  Yes
-		Crossfire Support:(AMD):  Yes
-		Sata Ports:  6
-		Price: $86.99
+	
+		
+
+		
+	
+		
+	
+	
+	
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
 		
 	
 		
@@ -445,3 +121,15 @@ Integrated Xeon D-1541
 	Crossfire Support:(AMD):   
 	Sata Ports:  
 	Price:
+	
+	
+	
+	
+	
+	
+	
+		Manufacturer: 
+		Modules: 
+		Memory Type:  
+		Voltage: 
+		Price: 
