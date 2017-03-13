@@ -1,0 +1,5 @@
+CoolMax V-600
+
+	Manufacturer:  CoolMax
+	Wattage:  600W
+	Price:  $36.99

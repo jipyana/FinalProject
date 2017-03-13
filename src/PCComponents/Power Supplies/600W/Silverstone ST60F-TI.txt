@@ -1,0 +1,5 @@
+Silverstone ST60F-TI
+
+	Manufacturer:  Silverstone
+	Wattage:  600W
+	Price:  $140.81

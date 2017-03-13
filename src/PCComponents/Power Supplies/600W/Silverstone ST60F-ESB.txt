@@ -1,0 +1,5 @@
+Silverstone ST60F-ESB
+
+	Manufacturer:  Silverstone
+	Wattage:  600W
+	Price: $$68.06

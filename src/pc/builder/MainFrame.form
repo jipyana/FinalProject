@@ -29,7 +29,7 @@
               <Component id="label1" min="-2" pref="319" max="-2" attributes="0"/>
               <EmptySpace pref="874" max="32767" attributes="0"/>
           </Group>
-          <Component id="jDesktopPane1" alignment="0" max="32767" attributes="0"/>
+          <Component id="jDesktopPane1" alignment="0" pref="1462" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">

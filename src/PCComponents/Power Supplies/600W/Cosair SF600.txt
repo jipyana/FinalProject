@@ -1,0 +1,5 @@
+Corsair SF600
+	
+		Manufacturer:  Corsair
+		Wattage:  600W
+		Price: $119.90

@@ -1,0 +1,5 @@
+EVGA  100-W1-0600-K1
+
+	Manufacturer:  EVGA
+	Wattage:  600W
+	Price: $49.99

@@ -1,0 +1,5 @@
+Zalman 600W
+
+	Manufacturer: Zalman 
+	Wattage: 600W
+	Price: $ 86.94
