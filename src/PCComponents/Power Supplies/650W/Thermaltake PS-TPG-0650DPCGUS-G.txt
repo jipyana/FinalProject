@@ -1,0 +1,5 @@
+Thermaltake PS-TPG-0650DPCGUS-G
+	
+	Manufacturer: Thermaltake 
+	Wattage:  650W
+	Price: $95.99

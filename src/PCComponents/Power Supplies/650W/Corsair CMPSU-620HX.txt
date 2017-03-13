@@ -1,0 +1,5 @@
+Corsair CMPSU-620HX
+
+	Manufacturer:  Corsair
+	Wattage:  650W
+	Price: $239.99

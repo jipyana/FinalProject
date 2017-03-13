@@ -1,0 +1,7 @@
+ARCTIC Alpine M1 
+
+	Manuafacturer: ARCTIC
+	Supported Socket:  AM1
+	Noise Level: 20.5dBA
+	Fan Speed:  750 RPM
+	Price:  $9.28

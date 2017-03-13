@@ -1,0 +1,7 @@
+CRYORIG H7
+
+	Manuafacturer: CRYORIG
+	Supported Socket:  AM3+
+	Noise Level:  1.0 - 25.0 dbA
+	Fan Speed:  330 - 1600 RPM
+	Price: $31.49

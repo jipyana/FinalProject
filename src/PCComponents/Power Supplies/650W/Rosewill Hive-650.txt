@@ -1,0 +1,5 @@
+Rosewill Hive-650
+
+	Manufacturer:  Rosewill
+	Wattage:  650W
+	Price:  $64.99

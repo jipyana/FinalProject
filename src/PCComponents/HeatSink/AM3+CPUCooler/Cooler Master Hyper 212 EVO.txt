@@ -1,0 +1,7 @@
+Cooler Master Hyper 212 EVO
+	
+	Manuafacturer: Coolerer Master
+	Supported Socket:  AM3+
+	Noise Level: 9.0 - 36.0 dbA
+	Fan Speed:  600 - 2000 RPM
+	Price: $24.88

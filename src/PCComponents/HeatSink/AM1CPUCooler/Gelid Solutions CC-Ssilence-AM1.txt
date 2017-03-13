@@ -1,0 +1,7 @@
+Gelid Solutions CC-Ssilence-AM1
+
+	Manuafacturer: Gelid Solutions
+	Supported Socket:  AM1
+	Noise Level: 15.0 - 27.2 dbA
+	Fan Speed:  1200 - 2600 RPM
+	Price: $24.88

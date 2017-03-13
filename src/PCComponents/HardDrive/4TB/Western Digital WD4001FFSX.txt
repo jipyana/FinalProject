@@ -1,0 +1,5 @@
+Western Digital WD4001FFSX
+
+	Manuafacturer: Western Digital
+	Capacity:  4TB
+	Price:  $327.64	

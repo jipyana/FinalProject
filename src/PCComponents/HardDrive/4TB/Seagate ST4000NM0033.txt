@@ -1,0 +1,5 @@
+Seagate ST4000NM0033
+
+	Manuafacturer: Seagate
+	Capacity:  4TB
+	Price:  $159.99

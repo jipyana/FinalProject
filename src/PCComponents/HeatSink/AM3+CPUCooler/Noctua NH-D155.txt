@@ -1,0 +1,7 @@
+Noctua NH-D15S
+
+	Manuafacturer: Noctua
+	Supported Socket:  AM2, AM2+, AM3, AM3+, AM4, FM1, FM2, FM2+, LGA1150, LGA1151, LGA1155, LGA1156, LGA2011, LGA2011-3
+	Noise Level: 19.2 - 24.6 dbA
+	Fan Speed:  300 - 1500 RPM
+	Price:  $89.19

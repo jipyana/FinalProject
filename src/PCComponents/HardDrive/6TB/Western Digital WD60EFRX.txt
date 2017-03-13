@@ -1,0 +1,5 @@
+Western Digital WD60EFRX
+
+	Manuafacturer: Western Digital
+	Capacity:  6TB
+	Price:  $233.99

@@ -1,0 +1,5 @@
+Western Digital WD80EFZX
+
+	Manuafacturer:  Western Digital
+	Capacity:  8TB
+	Price:  $288.99

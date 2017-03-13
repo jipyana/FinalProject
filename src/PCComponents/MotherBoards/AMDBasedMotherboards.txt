@@ -133,3 +133,36 @@ Integrated Xeon D-1541
 		Memory Type:  
 		Voltage: 
 		Price: 
+		
+		
+		
+		
+		
+		
+		
+	Manufacturer: 
+	Wattage: 
+	Price:
+		
+		
+	Manuafacturer: 
+	Socket: 
+	Speed: 
+	Cores:  
+	Wattage:
+	Price:
+	
+	
+	
+	Manuafacturer:
+	Supported Socket: 
+	Noise Level:
+	Fan Speed: 
+	Price:
+	
+	
+	
+	Manuafacturer:
+	Capacity: 
+	Price:
+	

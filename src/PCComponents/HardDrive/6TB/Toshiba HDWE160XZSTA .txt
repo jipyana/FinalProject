@@ -1,0 +1,5 @@
+Toshiba HDWE160XZSTA 
+
+	Manuafacturer: Toshiba
+	Capacity:  6TB
+	Price: $192.08

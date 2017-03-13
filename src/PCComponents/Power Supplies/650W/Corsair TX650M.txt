@@ -1,0 +1,5 @@
+Corsair TX650M
+
+	Manufacturer: Corsair 
+	Wattage:  650W
+	Price: $126.24

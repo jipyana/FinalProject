@@ -1,0 +1,7 @@
+CRYORIG C7
+
+	Manuafacturer: CRYORIG
+	Supported Socket: AM2, AM2+, AM3, AM3+, FM1, FM2, FM2+, LGA1150, LGA1151, LGA1155, LGA1156
+	Noise Level:  30.0 dbA 
+	Fan Speed:  600 - 2500 RPM
+	Price: $26.99

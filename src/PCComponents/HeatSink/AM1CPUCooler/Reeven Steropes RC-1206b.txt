@@ -1,0 +1,7 @@
+ Reeven Steropes RC-1206b
+
+	Manuafacturer: Reeven
+	Supported Socket:  AM1
+	Noise Level: 9.3 - 33.7 dbA
+	Fan Speed:  500 - 2000 RPM
+	Price: $39.50
