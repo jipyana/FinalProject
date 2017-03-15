@@ -10,6 +10,5 @@ Asus M5A97 R2.0 ATX AM3+ Motherboard
 		Onborad Ethernet:  Yes	
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia):  No
-		Crossfire Support:(AMD): Yes   
+		Crossfire Support(AMD): Yes   
 		Sata Ports:  6
-		Price: $79.88

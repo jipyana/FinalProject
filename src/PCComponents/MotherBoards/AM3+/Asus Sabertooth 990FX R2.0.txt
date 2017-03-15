@@ -10,6 +10,5 @@ Asus Sabertooth 990FX R2.0
 		Onborad Ethernet: Yes
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia): Yes
-		Crossfire Support:(AMD): 3-Way- SLI   
+		Crossfire Support(AMD): 3-Way- SLI   
 		Sata Ports:  8
-		Price: $161.98

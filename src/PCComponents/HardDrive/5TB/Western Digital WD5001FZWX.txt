@@ -2,4 +2,3 @@ Western Digital WD5001FZWX
 	
 	Manuafacturer: Western Digital
 	Capacity:  5TB
-	Price: $217.95

@@ -1,7 +1,6 @@
-Crucial Ballistix Sport
+Crucial Ballistix Sport(DDR3-1333)
 
 		Manufacturer:  Crucial
 		Modules: 1x4GB
 		Memory Type:  DDR3-1333
 		Voltage:  1.5V
-		Price:  $89.88

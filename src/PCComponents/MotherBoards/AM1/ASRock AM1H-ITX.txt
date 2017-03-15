@@ -10,6 +10,5 @@ ASRock AM1H-ITX
 	Onborad Ethernet: Yes
 	Onboard USB 3.0:  Yes
 	SLI Support(Nvidia): No
-	Crossfire Support:(AMD): No   
+	Crossfire Support(AMD): No   
 	Sata Ports:  4
-	Price: $43.99

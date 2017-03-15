@@ -12,4 +12,3 @@
 		SLI Support(Nvidia):  No	
 		Crossfire Support:(AMD):  Yes  
 		Sata Ports:  6
-		Price: $94.88

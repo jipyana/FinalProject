@@ -10,6 +10,5 @@ Gigabyte GA-990FXA-UD3
 		Onborad Ethernet:  Yes
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia):  Yes
-		Crossfire Support:(AMD): Yes   
+		Crossfire Support(AMD): Yes   
 		Sata Ports:  6
-		Price: $199.88

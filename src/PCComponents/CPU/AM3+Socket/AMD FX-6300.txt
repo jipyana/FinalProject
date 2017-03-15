@@ -1,8 +1,0 @@
-AMD FX-6300
-
-	Manuafacturer: AMD 
-	Socket:  AM3+
-	Speed:  3.5GHz
-	Cores:  6
-	Wattage:  95W
-	Price:  $89.88

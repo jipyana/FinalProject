@@ -1,8 +1,7 @@
 AMD 5350 (OEM-Tray)
 	
 	Manuafacturer: AMD 
-	Socket:  AM1
+	CPU Socket:  AM1
 	Speed:  2.05GHz
 	Cores:  4
 	Wattage: 25W
-	Price: $69.99

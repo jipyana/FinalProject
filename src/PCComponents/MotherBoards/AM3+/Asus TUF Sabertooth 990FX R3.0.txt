@@ -10,6 +10,5 @@ Asus TUF Sabertooth 990FX R3.0
 		Onborad Ethernet:  Yes
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia):  3-Way SLI	
-		Crossfire Support:(AMD):   Yes
+		Crossfire Support(AMD):   Yes
 		Sata Ports:  5
-		Price: $197.99

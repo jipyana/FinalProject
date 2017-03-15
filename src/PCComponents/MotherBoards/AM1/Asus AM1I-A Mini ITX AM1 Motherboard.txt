@@ -10,6 +10,5 @@ Asus AM1I-A Mini ITX AM1 Motherboard
 	Onborad Ethernet: Yes
 	Onboard USB 3.0:  No
 	SLI Support(Nvidia): No
-	Crossfire Support:(AMD): No   
+	Crossfire Support(AMD): No   
 	Sata Ports:  2
-	Price: $69.16

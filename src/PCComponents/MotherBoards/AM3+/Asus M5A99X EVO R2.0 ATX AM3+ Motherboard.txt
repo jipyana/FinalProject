@@ -10,6 +10,5 @@ Asus M5A99X EVO R2.0 ATX AM3+ Motherboard
 		Onborad Ethernet:   Yes
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia): Yes
-		Crossfire Support:(AMD): Yes   
+		Crossfire Support(AMD): Yes   
 		Sata Ports:  6
-		Price: $121.99

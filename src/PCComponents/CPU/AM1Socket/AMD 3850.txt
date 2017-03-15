@@ -1,8 +1,7 @@
 AMD 3850
 	
 	Manuafacturer:  AMD
-	Socket:  AM1
+	CPU Socket:  AM1
 	Speed:  1.3GHz
 	Cores:  4
 	Wattage: 25W
-	Price: $41.35

@@ -1,9 +1,8 @@
-Kingston HyperX Fury Blue
+Kingston HyperX Fury Blue(DDR3-1333)
 
 		Manufacturer: Kingston 
 		Modules: 1x4GB
 		Memory Type:  DDR3-1333
 		Voltage:  1.5V
-		Price:  $37.99
 		
 		

@@ -10,6 +10,5 @@ Asus Crosshair V Formula
 		Onborad Ethernet: Yes
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia): 3-Way SLI
-		Crossfire Support:(AMD):   Yes
+		Crossfire Support(AMD):   Yes
 		Sata Ports:  7
-		Price: $290.55

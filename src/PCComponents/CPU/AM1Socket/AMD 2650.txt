@@ -1,8 +1,7 @@
 AMD 2650
 	
 	Manuafacturer: AMD
-	Socket: AM1
+	CPU Socket: AM1
 	Speed: 1.45GHz
 	Cores:  2
 	Wattage:  25W
-	Price: $31.98

@@ -1,0 +1,7 @@
+AMD FX-6300 (AM3+)
+
+	Manuafacturer: AMD 
+	CPU Socket:  AM3+
+	Speed:  3.5GHz
+	Cores:  6
+	Wattage:  95W

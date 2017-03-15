@@ -10,6 +10,5 @@ Asus M5A99FX PRO R2.0 ATX AM3+ Motherboard
 		Onborad Ethernet: Yes
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia): Yes
-		Crossfire Support:(AMD): Yes   
+		Crossfire Support(AMD): Yes   
 		Sata Ports:  7
-		Price: $133.89

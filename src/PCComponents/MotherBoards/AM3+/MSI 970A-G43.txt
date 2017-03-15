@@ -10,6 +10,5 @@ MSI 970A-G43
 		Onborad Ethernet:  Yes
 		Onboard USB 3.0:  Yes
 		SLI Support(Nvidia): No
-		Crossfire Support:(AMD): Yes   
+		Crossfire Support(AMD): Yes   
 		Sata Ports:  6
-		Price: $159.88

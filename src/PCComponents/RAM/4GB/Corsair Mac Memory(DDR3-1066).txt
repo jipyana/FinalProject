@@ -1,7 +1,6 @@
-Corsair Mac Memory
+Corsair Mac Memory(DDR3-1066)
 
 		Manufacturer:  Corsair
 		Modules: 1x4GB
 		Memory Type:  DDR3-1066
 		Voltage:  1.5V
-		Price:  $29.99

@@ -1,7 +1,6 @@
-Corsair
+Corsair(DDR3-1333)
 
 		Manufacturer:  Corsair
 		Modules: 1x4GB
 		Memory Type:  DDR3-1333
 		Voltage:  1.5V
-		Price:  $30.00

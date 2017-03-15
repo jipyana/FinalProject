@@ -10,6 +10,5 @@ Gigabyte GA-AM1M-S2H
 	Onborad Ethernet: Yes
 	Onboard USB 3.0:  No
 	SLI Support(Nvidia):  No
-	Crossfire Support:(AMD): No   
+	Crossfire Support(AMD): No   
 	Sata Ports:  2
-	Price: $34.99

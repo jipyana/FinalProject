@@ -1,7 +1,6 @@
-Kingston HyperX Fury Red
+Kingston HyperX Fury Red(DDR3-1333)
 
 		Manufacturer: Kingston 
 		Modules: 1x4GB
 		Memory Type:  DDR3-1333
 		Voltage:  1.5V
-		Price:  $37.98

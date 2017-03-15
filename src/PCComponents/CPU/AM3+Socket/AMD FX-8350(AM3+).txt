@@ -1,8 +1,7 @@
 AMD FX-8350
 	
 	Manuafacturer:  AMD
-	Socket:  AM1
+	CPU Socket:  AM1
 	Speed:  4.0GHz
 	Cores:  8
 	Wattage: 125W
-	Price:  $146.79

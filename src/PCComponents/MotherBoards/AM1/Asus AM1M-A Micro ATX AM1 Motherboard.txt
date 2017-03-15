@@ -10,6 +10,5 @@ Asus AM1M-A Micro ATX AM1 Motherboard
 	Onborad Ethernet: Yes
 	Onboard USB 3.0:  Yes
 	SLI Support(Nvidia): No
-	Crossfire Support:(AMD): No  
+	Crossfire Support(AMD): No  
 	Sata Ports:  2
-	Price: $30.09

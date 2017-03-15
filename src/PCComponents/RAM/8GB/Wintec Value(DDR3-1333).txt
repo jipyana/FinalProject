@@ -1,7 +1,6 @@
-Wintec Value
+Wintec Value(DDR3-1333)
 
 		Manufacturer: Wintec 
 		Modules:  1x8GB
 		Memory Type:  DDR3-1333
 		Voltage:  1.5V
-		Price:  $52.99

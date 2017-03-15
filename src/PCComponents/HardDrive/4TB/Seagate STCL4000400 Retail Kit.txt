@@ -2,4 +2,3 @@ Seagate STCL4000400 Retail Kit
 
 	Manuafacturer: Seagate
 	Capacity:  4TB
-	Price:  $166.98
