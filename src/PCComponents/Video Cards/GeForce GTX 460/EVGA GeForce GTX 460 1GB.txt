@@ -6,6 +6,5 @@ EVGA GeForce GTX 460 1GB
 		Core Clock:  720MHz
 		Multi-GPU:  SLI Ready
 		Compatability:  PCI-Express x16
-		Price:  $276.16
 		HDMI Ports:  Yes
 		Display Port:  Yes

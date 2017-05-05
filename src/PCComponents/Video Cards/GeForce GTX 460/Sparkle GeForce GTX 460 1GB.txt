@@ -6,6 +6,5 @@ Sparkle GeForce GTX 460 1GB
 		Core Clock:  700MHz
 		Multi-GPU:  SLI Ready
 		Compatability:  PCI-Express x16
-		Price:  $247.01
 		HDMI Ports:  Yes
 		Display Port:  Yes

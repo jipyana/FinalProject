@@ -6,6 +6,5 @@ Gigabyte GV-N1060WF2OC-3GD
 		Core Clock:  1.56GHz
 		Mulit-GPU:  No
 		Compatability:  PCI-Express x16
-		Price:  $194.98
 		HDMI Ports:  Yes
 		Display Port:  Yes

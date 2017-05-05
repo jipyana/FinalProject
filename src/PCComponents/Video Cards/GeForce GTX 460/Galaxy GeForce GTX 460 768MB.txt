@@ -6,6 +6,5 @@ Galaxy GeForce GTX 460 768MB
 		Core Clock:  700MHz
 		Multi-GPU:  SLI Ready
 		Compatability: PCI-Express x16
-		Price:  $123.99
 		HDMI Ports:  Yes
 		Display Port:  Yes

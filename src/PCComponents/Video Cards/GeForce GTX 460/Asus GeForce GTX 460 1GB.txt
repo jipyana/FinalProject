@@ -6,6 +6,5 @@ Asus GeForce GTX 460 1GB
 		Core Clock:  675MHz
 		Multi-GPU:  SLI  Ready
 		Compatability:  PCI-Express x16
-		Price:  $225.50
 		HDMI Ports:  Yes
 		Display Port:  Yes

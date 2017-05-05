@@ -6,7 +6,6 @@ MSI GTX 1060 GAMING X 3G
 		Core Clock:  1.59GHz
 		Mulit-GPU:  No
 		Compatability: PCI-Express x16 
-		Price:  $208.98
 		HDMI Ports:  Yes
 		Display Port:  Yes
 	

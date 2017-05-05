@@ -6,6 +6,5 @@ EVGA 03G-P4-6162
 		Core Clock:  1.61GHz
 		Mulit-GPU:  No
 		Compatability: PCI-Express x16 
-		Price:  $199.99
 		HDMI Ports:  Yes
 		Display Port:  Yes
